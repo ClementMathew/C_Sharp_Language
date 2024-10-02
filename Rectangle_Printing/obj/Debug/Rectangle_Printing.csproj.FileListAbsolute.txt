@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Rectangle_Printing\bin\Debug\Rectangle_Printing.exe.config
+D:\Programming\C_Sharp_Programs\Rectangle_Printing\bin\Debug\Rectangle_Printing.exe
+D:\Programming\C_Sharp_Programs\Rectangle_Printing\bin\Debug\Rectangle_Printing.pdb
+D:\Programming\C_Sharp_Programs\Rectangle_Printing\obj\Debug\Rectangle_Printing.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Rectangle_Printing\obj\Debug\Rectangle_Printing.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Rectangle_Printing\obj\Debug\Rectangle_Printing.exe
+D:\Programming\C_Sharp_Programs\Rectangle_Printing\obj\Debug\Rectangle_Printing.pdb

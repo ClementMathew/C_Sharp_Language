@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Number_Pattern_Sum\bin\Debug\Number_Pattern_Sum.exe.config
+D:\Programming\C_Sharp_Programs\Number_Pattern_Sum\bin\Debug\Number_Pattern_Sum.exe
+D:\Programming\C_Sharp_Programs\Number_Pattern_Sum\bin\Debug\Number_Pattern_Sum.pdb
+D:\Programming\C_Sharp_Programs\Number_Pattern_Sum\obj\Debug\Number_Pattern_Sum.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Number_Pattern_Sum\obj\Debug\Number_Pattern_Sum.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Number_Pattern_Sum\obj\Debug\Number_Pattern_Sum.exe
+D:\Programming\C_Sharp_Programs\Number_Pattern_Sum\obj\Debug\Number_Pattern_Sum.pdb

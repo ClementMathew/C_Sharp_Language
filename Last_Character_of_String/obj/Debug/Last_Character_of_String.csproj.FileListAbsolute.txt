@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Last_Character_of_String\bin\Debug\Last_Character_of_String.exe.config
+D:\Programming\C_Sharp_Programs\Last_Character_of_String\bin\Debug\Last_Character_of_String.exe
+D:\Programming\C_Sharp_Programs\Last_Character_of_String\bin\Debug\Last_Character_of_String.pdb
+D:\Programming\C_Sharp_Programs\Last_Character_of_String\obj\Debug\Last_Character_of_String.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Last_Character_of_String\obj\Debug\Last_Character_of_String.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Last_Character_of_String\obj\Debug\Last_Character_of_String.exe
+D:\Programming\C_Sharp_Programs\Last_Character_of_String\obj\Debug\Last_Character_of_String.pdb

@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Task\bin\Debug\Task.exe.config
+D:\Programming\C_Sharp_Programs\Task\bin\Debug\Task.exe
+D:\Programming\C_Sharp_Programs\Task\bin\Debug\Task.pdb
+D:\Programming\C_Sharp_Programs\Task\obj\Debug\Task.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Task\obj\Debug\Task.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Task\obj\Debug\Task.exe
+D:\Programming\C_Sharp_Programs\Task\obj\Debug\Task.pdb

@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Capitalize_And_Replace_Space\bin\Debug\Capitalize_And_Replace_Space.exe.config
+D:\Programming\C_Sharp_Programs\Capitalize_And_Replace_Space\bin\Debug\Capitalize_And_Replace_Space.exe
+D:\Programming\C_Sharp_Programs\Capitalize_And_Replace_Space\bin\Debug\Capitalize_And_Replace_Space.pdb
+D:\Programming\C_Sharp_Programs\Capitalize_And_Replace_Space\obj\Debug\Capitalize_And_Replace_Space.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Capitalize_And_Replace_Space\obj\Debug\Capitalize_And_Replace_Space.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Capitalize_And_Replace_Space\obj\Debug\Capitalize_And_Replace_Space.exe
+D:\Programming\C_Sharp_Programs\Capitalize_And_Replace_Space\obj\Debug\Capitalize_And_Replace_Space.pdb
