@@ -16,6 +16,9 @@ namespace Array_Functions
             int[] arr = { 4, 1, 3, 2, 3 };
 
             Console.WriteLine($"Array Length : {arr.Length}");
+            Console.WriteLine($"Max value is : {arr.Max()}");
+            Console.WriteLine($"Min value is : {arr.Min()}");
+            Console.WriteLine($"Sum value is : {arr.Sum()} \n");
 
             int[,] multiArr = { { 1, 2 }, { 3, 4 }, { 5, 6 } };
 

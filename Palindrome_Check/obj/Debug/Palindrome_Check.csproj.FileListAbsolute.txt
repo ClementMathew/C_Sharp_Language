@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Palindrome_Check\bin\Debug\Palindrome_Check.exe.config
+D:\Programming\C_Sharp_Programs\Palindrome_Check\bin\Debug\Palindrome_Check.exe
+D:\Programming\C_Sharp_Programs\Palindrome_Check\bin\Debug\Palindrome_Check.pdb
+D:\Programming\C_Sharp_Programs\Palindrome_Check\obj\Debug\Palindrome_Check.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Palindrome_Check\obj\Debug\Palindrome_Check.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Palindrome_Check\obj\Debug\Palindrome_Check.exe
+D:\Programming\C_Sharp_Programs\Palindrome_Check\obj\Debug\Palindrome_Check.pdb

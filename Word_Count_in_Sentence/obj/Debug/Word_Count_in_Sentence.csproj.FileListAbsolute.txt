@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Word_Count_in_Sentence\bin\Debug\Word_Count_in_Sentence.exe.config
+D:\Programming\C_Sharp_Programs\Word_Count_in_Sentence\bin\Debug\Word_Count_in_Sentence.exe
+D:\Programming\C_Sharp_Programs\Word_Count_in_Sentence\bin\Debug\Word_Count_in_Sentence.pdb
+D:\Programming\C_Sharp_Programs\Word_Count_in_Sentence\obj\Debug\Word_Count_in_Sentence.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Word_Count_in_Sentence\obj\Debug\Word_Count_in_Sentence.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Word_Count_in_Sentence\obj\Debug\Word_Count_in_Sentence.exe
+D:\Programming\C_Sharp_Programs\Word_Count_in_Sentence\obj\Debug\Word_Count_in_Sentence.pdb

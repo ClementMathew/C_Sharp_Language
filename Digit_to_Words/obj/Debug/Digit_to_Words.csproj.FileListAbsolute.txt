@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Digit_to_Words\bin\Debug\Digit_to_Words.exe.config
+D:\Programming\C_Sharp_Programs\Digit_to_Words\bin\Debug\Digit_to_Words.exe
+D:\Programming\C_Sharp_Programs\Digit_to_Words\bin\Debug\Digit_to_Words.pdb
+D:\Programming\C_Sharp_Programs\Digit_to_Words\obj\Debug\Digit_to_Words.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Digit_to_Words\obj\Debug\Digit_to_Words.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Digit_to_Words\obj\Debug\Digit_to_Words.exe
+D:\Programming\C_Sharp_Programs\Digit_to_Words\obj\Debug\Digit_to_Words.pdb

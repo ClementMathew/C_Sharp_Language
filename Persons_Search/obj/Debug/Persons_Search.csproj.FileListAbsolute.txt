@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Persons_Search\bin\Debug\Persons_Search.exe.config
+D:\Programming\C_Sharp_Programs\Persons_Search\bin\Debug\Persons_Search.exe
+D:\Programming\C_Sharp_Programs\Persons_Search\bin\Debug\Persons_Search.pdb
+D:\Programming\C_Sharp_Programs\Persons_Search\obj\Debug\Persons_Search.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Persons_Search\obj\Debug\Persons_Search.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Persons_Search\obj\Debug\Persons_Search.exe
+D:\Programming\C_Sharp_Programs\Persons_Search\obj\Debug\Persons_Search.pdb
