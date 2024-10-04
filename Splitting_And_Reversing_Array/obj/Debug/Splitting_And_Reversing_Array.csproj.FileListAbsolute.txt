@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Splitting_And_Reversing_Array\bin\Debug\Splitting_And_Reversing_Array.exe.config
+D:\Programming\C_Sharp_Programs\Splitting_And_Reversing_Array\bin\Debug\Splitting_And_Reversing_Array.exe
+D:\Programming\C_Sharp_Programs\Splitting_And_Reversing_Array\bin\Debug\Splitting_And_Reversing_Array.pdb
+D:\Programming\C_Sharp_Programs\Splitting_And_Reversing_Array\obj\Debug\Splitting_And_Reversing_Array.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Splitting_And_Reversing_Array\obj\Debug\Splitting_And_Reversing_Array.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Splitting_And_Reversing_Array\obj\Debug\Splitting_And_Reversing_Array.exe
+D:\Programming\C_Sharp_Programs\Splitting_And_Reversing_Array\obj\Debug\Splitting_And_Reversing_Array.pdb

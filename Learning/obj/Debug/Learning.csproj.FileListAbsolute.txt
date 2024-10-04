@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Learning\bin\Debug\Learning.exe.config
+D:\Programming\C_Sharp_Programs\Learning\bin\Debug\Learning.exe
+D:\Programming\C_Sharp_Programs\Learning\bin\Debug\Learning.pdb
+D:\Programming\C_Sharp_Programs\Learning\obj\Debug\Learning.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Learning\obj\Debug\Learning.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Learning\obj\Debug\Learning.exe
+D:\Programming\C_Sharp_Programs\Learning\obj\Debug\Learning.pdb

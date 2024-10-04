@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Functions\bin\Debug\Functions.exe.config
+D:\Programming\C_Sharp_Programs\Functions\bin\Debug\Functions.exe
+D:\Programming\C_Sharp_Programs\Functions\bin\Debug\Functions.pdb
+D:\Programming\C_Sharp_Programs\Functions\obj\Debug\Functions.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Functions\obj\Debug\Functions.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Functions\obj\Debug\Functions.exe
+D:\Programming\C_Sharp_Programs\Functions\obj\Debug\Functions.pdb

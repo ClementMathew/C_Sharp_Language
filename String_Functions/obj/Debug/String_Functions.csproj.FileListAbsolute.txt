@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\String_Functions\bin\Debug\String_Functions.exe.config
+D:\Programming\C_Sharp_Programs\String_Functions\bin\Debug\String_Functions.exe
+D:\Programming\C_Sharp_Programs\String_Functions\bin\Debug\String_Functions.pdb
+D:\Programming\C_Sharp_Programs\String_Functions\obj\Debug\String_Functions.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\String_Functions\obj\Debug\String_Functions.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\String_Functions\obj\Debug\String_Functions.exe
+D:\Programming\C_Sharp_Programs\String_Functions\obj\Debug\String_Functions.pdb

@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Simple_Calculator\bin\Debug\Simple_Calculator.exe.config
+D:\Programming\C_Sharp_Programs\Simple_Calculator\bin\Debug\Simple_Calculator.exe
+D:\Programming\C_Sharp_Programs\Simple_Calculator\bin\Debug\Simple_Calculator.pdb
+D:\Programming\C_Sharp_Programs\Simple_Calculator\obj\Debug\Simple_Calculator.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Simple_Calculator\obj\Debug\Simple_Calculator.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Simple_Calculator\obj\Debug\Simple_Calculator.exe
+D:\Programming\C_Sharp_Programs\Simple_Calculator\obj\Debug\Simple_Calculator.pdb
