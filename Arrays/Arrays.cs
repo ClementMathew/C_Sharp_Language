@@ -102,18 +102,62 @@ namespace Arrays
 
             Console.WriteLine($"Array length before resizing : {resizableArray.Length}");
             Array.Resize(ref resizableArray, resizableArray.Length * 2);
-            Console.WriteLine($"Resized array length : {resizableArray.Length}");
+            Console.WriteLine($"Resized array length : {resizableArray.Length} \n");
 
             resizableArray[3] = 4;
 
 
             // Array functions.
 
-            var theArray = new int[2] { 2, 1 };
+            int[] arr = { 4, 1, 3, 2, 3 };
 
-            //Array.Copy(arr2, arr3, 2);
-            //Array.Clear(arr3, 1, 1);
-            //Array.Sort();
+            Console.WriteLine($"Array Length : {arr.Length}");
+
+            int[,] multiArr = { { 1, 2 }, { 3, 4 }, { 5, 6 } };
+
+            Console.WriteLine($"No of Rows : {multiArr.GetLength(0)}");
+            Console.WriteLine($"No of Columns : {multiArr.GetLength(1)}");
+
+            Console.WriteLine($"Upper Bound of 1D array : {arr.GetUpperBound(0)}");
+            Console.WriteLine($"Lower Bound of 1D array : {arr.GetLowerBound(0)} \n");
+
+            int index = Array.IndexOf(arr, 3);
+            Console.WriteLine($"Index of 3 : {index}");
+
+            int lastIndex = Array.LastIndexOf(arr, 3);
+            Console.WriteLine($"Last Index of 3 : {lastIndex} \n");
+
+            Array.Sort(arr);
+            Console.WriteLine($"Sorted Array : {string.Join(", ", arr)}");
+
+            Array.Reverse(arr);
+            Console.WriteLine($"Reversed Array : {string.Join(", ", arr)} \n");
+
+            Array.Clear(arr, 1, 2);
+            Console.WriteLine($"Array after Clear : {string.Join(", ", arr)}");
+
+            Array.Resize(ref arr, 7);
+            Console.WriteLine($"Resized Array : {string.Join(", ", arr)} \n");
+
+            int[] copyArr = new int[7];
+            Array.Copy(arr, copyArr, arr.Length);
+            Console.WriteLine($"Copied Array : {string.Join(", ", copyArr)}");
+
+            int[] clonedArr = (int[])arr.Clone();
+            Console.WriteLine($"Cloned Array : {string.Join(", ", clonedArr)} \n");
+
+            bool exists = Array.Exists(arr, element => element == 4);
+            Console.WriteLine($"Does 4 exist in array ? : {exists}");
+
+            int found = Array.Find(arr, element => element > 1);
+            Console.WriteLine($"First element > 1 : {found}");
+
+            int[] foundAll = Array.FindAll(arr, element => element > 1);
+            Console.WriteLine($"All elements > 1 : {string.Join(", ", foundAll)} \n");
+
+            Array.Sort(arr);
+            int searchIndex = Array.BinarySearch(arr, 2);
+            Console.WriteLine($"Index of 2 after BinarySearch : {searchIndex}");
 
         }
     }

@@ -30,6 +30,14 @@ namespace Functions
             Console.WriteLine($"Hello {firstName} {lastName}!");
         }
 
+        // Single line function.
+
+        static void SingleLineFunction() => Console.WriteLine("The single line function");
+
+        // Single line function with return.
+
+        static int SingleLineFunctionWithReturn(int a, int b) => a + b;
+
         // Main function.
 
         static void Main(string[] args)
@@ -37,6 +45,12 @@ namespace Functions
             Greet();
             GreetByName("Clement");
             GreetByName("Clement", "Mathew");
+
+            Console.WriteLine();
+
+            SingleLineFunction();
+            Console.WriteLine(SingleLineFunctionWithReturn(1, 2));
+
         }
     }
 }
