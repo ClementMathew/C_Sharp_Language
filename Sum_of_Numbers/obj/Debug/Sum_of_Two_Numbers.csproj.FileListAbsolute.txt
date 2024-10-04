@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Sum_of_Numbers\bin\Debug\Sum_of_Numbers.exe.config
+D:\Programming\C_Sharp_Programs\Sum_of_Numbers\bin\Debug\Sum_of_Numbers.exe
+D:\Programming\C_Sharp_Programs\Sum_of_Numbers\bin\Debug\Sum_of_Numbers.pdb
+D:\Programming\C_Sharp_Programs\Sum_of_Numbers\obj\Debug\Sum_of_Two_Numbers.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Sum_of_Numbers\obj\Debug\Sum_of_Two_Numbers.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Sum_of_Numbers\obj\Debug\Sum_of_Numbers.exe
+D:\Programming\C_Sharp_Programs\Sum_of_Numbers\obj\Debug\Sum_of_Numbers.pdb

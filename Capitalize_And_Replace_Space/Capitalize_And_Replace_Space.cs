@@ -30,7 +30,6 @@ namespace Capitalize_And_Replace_Space
                     Console.Write(name[i]);
                 }
             }
-
             Console.ReadKey();
         }
     }

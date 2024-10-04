@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0EF63EE1-9BA2-4B12-8389-7865957B4274}</ProjectGuid>
+    <ProjectGuid>{208E539A-C813-47E9-AFFC-EA6D9649489D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>String_Functions</RootNamespace>
-    <AssemblyName>String_Functions</AssemblyName>
+    <RootNamespace>Sum_of_Even_Numbers</RootNamespace>
+    <AssemblyName>Sum_of_Even_Numbers</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="String_Functions.cs" />
+    <Compile Include="Sum_of_Even_Numbers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

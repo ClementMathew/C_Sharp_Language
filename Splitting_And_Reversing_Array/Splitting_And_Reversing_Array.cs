@@ -61,7 +61,6 @@ namespace Splitting_And_Reversing_Array
             {
                 Console.WriteLine(modArray[i]);
             }
-
         }
     }
 }

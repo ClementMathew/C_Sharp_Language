@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace String_Functions
 {
-    internal class String_Functions
+    internal class Strings
     {
         static void Main(string[] args)
         {

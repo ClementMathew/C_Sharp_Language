@@ -4,19 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sum_of_Numbers
+namespace Sum_of_Two_Numbers
 {
-    internal class Sum_of_Numbers
+    internal class Sum_of_Two_Numbers
     {
         // Sum of numbers by using function.
-
         static void Sum(int a, int b)
         {
             Console.WriteLine($"The sum of {a} and {b} is {a + b}");
         }
 
         // Returning sum to main function.
-
         static int Add(int a, int b)
         {
             return (a + b);
