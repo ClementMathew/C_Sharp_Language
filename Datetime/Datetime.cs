@@ -26,14 +26,14 @@ namespace Datetime
             Console.WriteLine($"Second : {dt.Second}");
             Console.WriteLine($"MilliSecond :{dt.Millisecond} \n");
 
-            //Formatting date and time
+            // Formatting date and time
 
             Console.WriteLine(dt.ToString("MM-dd-yyyy hh:mm:ss"));
             Console.WriteLine(dt.ToString("dd-MM-yyyy hh:mm:ss"));
             Console.WriteLine(dt.ToString("dd/MM/yyyy hh:mm:ss"));
             Console.WriteLine(dt.ToString("MM/dd/yyyy") + "\n");
 
-            //Constructing Date and Time 
+            // Constructing Date and Time 
 
             var myDt = new DateTime(2024, 10, 07, 10, 50, 49);
             Console.WriteLine($"Constructed datetime : {myDt}");

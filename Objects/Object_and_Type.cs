@@ -9,6 +9,7 @@ namespace Object_and_Type
     internal class Object_and_Type
     {
         // Object datatype.
+
         static void DoThis(object a, object b)
         {
             if (a.GetType() == typeof(string))
