@@ -11,7 +11,6 @@ namespace Learning
         static void Main(string[] args)
         {
 
-
         }
     }
 }

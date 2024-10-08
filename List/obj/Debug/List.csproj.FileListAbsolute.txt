@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\List\bin\Debug\List.exe.config
+D:\Programming\C_Sharp_Programs\List\bin\Debug\List.exe
+D:\Programming\C_Sharp_Programs\List\bin\Debug\List.pdb
+D:\Programming\C_Sharp_Programs\List\obj\Debug\List.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\List\obj\Debug\List.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\List\obj\Debug\List.exe
+D:\Programming\C_Sharp_Programs\List\obj\Debug\List.pdb

@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\List_Inside_List\bin\Debug\List_Inside_List.exe.config
+D:\Programming\C_Sharp_Programs\List_Inside_List\bin\Debug\List_Inside_List.exe
+D:\Programming\C_Sharp_Programs\List_Inside_List\bin\Debug\List_Inside_List.pdb
+D:\Programming\C_Sharp_Programs\List_Inside_List\obj\Debug\List_Inside_List.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\List_Inside_List\obj\Debug\List_Inside_List.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\List_Inside_List\obj\Debug\List_Inside_List.exe
+D:\Programming\C_Sharp_Programs\List_Inside_List\obj\Debug\List_Inside_List.pdb
