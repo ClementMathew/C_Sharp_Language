@@ -26,6 +26,16 @@ namespace Datetime
             Console.WriteLine($"Second : {dt.Second}");
             Console.WriteLine($"MilliSecond :{dt.Millisecond} \n");
 
+            // AddDays
+
+            var tendaysFromNow = dt.AddDays(10);
+            Console.WriteLine($"Ten days added : {tendaysFromNow}");
+
+            // AddHours
+
+            var tenDaysAndTwentyHoursFromNow = dt.AddHours(20).AddDays(10);
+            Console.WriteLine($"Ten days and twenty hours added : {tenDaysAndTwentyHoursFromNow} \n");
+
             // Formatting date and time
 
             Console.WriteLine(dt.ToString("MM-dd-yyyy hh:mm:ss"));

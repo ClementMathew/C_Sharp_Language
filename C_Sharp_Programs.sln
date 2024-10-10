@@ -96,6 +96,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datetime", "Datetime\Dateti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculate_Age", "Calculate_Age\Calculate_Age.csproj", "{2266CC94-059E-4C43-BF9A-7B0E9E243243}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Namespaces", "Namespaces\Namespaces.csproj", "{75C0F70E-4169-4856-83A6-5D39B151F6F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -246,6 +248,10 @@ Global
 		{2266CC94-059E-4C43-BF9A-7B0E9E243243}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2266CC94-059E-4C43-BF9A-7B0E9E243243}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2266CC94-059E-4C43-BF9A-7B0E9E243243}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75C0F70E-4169-4856-83A6-5D39B151F6F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75C0F70E-4169-4856-83A6-5D39B151F6F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75C0F70E-4169-4856-83A6-5D39B151F6F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75C0F70E-4169-4856-83A6-5D39B151F6F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
