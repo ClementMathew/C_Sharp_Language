@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Smartphone_Models\bin\Debug\Smartphone_Models.exe.config
+D:\Programming\C_Sharp_Programs\Smartphone_Models\bin\Debug\Smartphone_Models.exe
+D:\Programming\C_Sharp_Programs\Smartphone_Models\bin\Debug\Smartphone_Models.pdb
+D:\Programming\C_Sharp_Programs\Smartphone_Models\obj\Debug\Smartphone_Models.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Smartphone_Models\obj\Debug\Smartphone_Models.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Smartphone_Models\obj\Debug\Smartphone_Models.exe
+D:\Programming\C_Sharp_Programs\Smartphone_Models\obj\Debug\Smartphone_Models.pdb

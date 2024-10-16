@@ -10,7 +10,12 @@ namespace Task
     {
         static void Main(string[] args)
         {
+            // array resizing
 
+            int[] arr = new int[1];
+
+            Console.WriteLine("enter");
+            int n = int.Parse(Console.ReadLine());
         }
     }
 }

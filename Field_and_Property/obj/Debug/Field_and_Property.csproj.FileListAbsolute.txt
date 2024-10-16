@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Field_and_Property\bin\Debug\Field_and_Property.exe.config
+D:\Programming\C_Sharp_Programs\Field_and_Property\bin\Debug\Field_and_Property.exe
+D:\Programming\C_Sharp_Programs\Field_and_Property\bin\Debug\Field_and_Property.pdb
+D:\Programming\C_Sharp_Programs\Field_and_Property\obj\Debug\Field_and_Property.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Field_and_Property\obj\Debug\Field_and_Property.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Field_and_Property\obj\Debug\Field_and_Property.exe
+D:\Programming\C_Sharp_Programs\Field_and_Property\obj\Debug\Field_and_Property.pdb

@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Array_Resizing_Manually\bin\Debug\Array_Resizing_Manually.exe.config
+D:\Programming\C_Sharp_Programs\Array_Resizing_Manually\bin\Debug\Array_Resizing_Manually.exe
+D:\Programming\C_Sharp_Programs\Array_Resizing_Manually\bin\Debug\Array_Resizing_Manually.pdb
+D:\Programming\C_Sharp_Programs\Array_Resizing_Manually\obj\Debug\Array_Resizing_Manually.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Array_Resizing_Manually\obj\Debug\Array_Resizing_Manually.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Array_Resizing_Manually\obj\Debug\Array_Resizing_Manually.exe
+D:\Programming\C_Sharp_Programs\Array_Resizing_Manually\obj\Debug\Array_Resizing_Manually.pdb

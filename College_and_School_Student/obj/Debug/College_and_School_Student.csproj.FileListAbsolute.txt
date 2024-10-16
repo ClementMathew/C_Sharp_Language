@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\College_and_School_Student\bin\Debug\College_and_School_Student.exe.config
+D:\Programming\C_Sharp_Programs\College_and_School_Student\bin\Debug\College_and_School_Student.exe
+D:\Programming\C_Sharp_Programs\College_and_School_Student\bin\Debug\College_and_School_Student.pdb
+D:\Programming\C_Sharp_Programs\College_and_School_Student\obj\Debug\College_and_School_Student.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\College_and_School_Student\obj\Debug\College_and_School_Student.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\College_and_School_Student\obj\Debug\College_and_School_Student.exe
+D:\Programming\C_Sharp_Programs\College_and_School_Student\obj\Debug\College_and_School_Student.pdb

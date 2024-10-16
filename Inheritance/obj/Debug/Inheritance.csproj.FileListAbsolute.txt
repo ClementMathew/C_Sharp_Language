@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Inheritance\bin\Debug\Inheritance.exe.config
+D:\Programming\C_Sharp_Programs\Inheritance\bin\Debug\Inheritance.exe
+D:\Programming\C_Sharp_Programs\Inheritance\bin\Debug\Inheritance.pdb
+D:\Programming\C_Sharp_Programs\Inheritance\obj\Debug\Inheritance.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Inheritance\obj\Debug\Inheritance.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Inheritance\obj\Debug\Inheritance.exe
+D:\Programming\C_Sharp_Programs\Inheritance\obj\Debug\Inheritance.pdb

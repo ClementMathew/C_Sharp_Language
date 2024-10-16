@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Student_Registration\bin\Debug\Student_Registration.exe.config
+D:\Programming\C_Sharp_Programs\Student_Registration\bin\Debug\Student_Registration.exe
+D:\Programming\C_Sharp_Programs\Student_Registration\bin\Debug\Student_Registration.pdb
+D:\Programming\C_Sharp_Programs\Student_Registration\obj\Debug\Student_Registration.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Student_Registration\obj\Debug\Student_Registration.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Student_Registration\obj\Debug\Student_Registration.exe
+D:\Programming\C_Sharp_Programs\Student_Registration\obj\Debug\Student_Registration.pdb
