@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Employee_Annual_Salary\bin\Debug\Employee_Annual_Salary.exe.config
+D:\Programming\C_Sharp_Programs\Employee_Annual_Salary\bin\Debug\Employee_Annual_Salary.exe
+D:\Programming\C_Sharp_Programs\Employee_Annual_Salary\bin\Debug\Employee_Annual_Salary.pdb
+D:\Programming\C_Sharp_Programs\Employee_Annual_Salary\obj\Debug\Employee_Annual_Salary.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Employee_Annual_Salary\obj\Debug\Employee_Annual_Salary.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Employee_Annual_Salary\obj\Debug\Employee_Annual_Salary.exe
+D:\Programming\C_Sharp_Programs\Employee_Annual_Salary\obj\Debug\Employee_Annual_Salary.pdb

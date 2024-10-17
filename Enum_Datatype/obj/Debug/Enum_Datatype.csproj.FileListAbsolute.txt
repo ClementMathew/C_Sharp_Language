@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Enum_Datatype\bin\Debug\Enum_Datatype.exe.config
+D:\Programming\C_Sharp_Programs\Enum_Datatype\bin\Debug\Enum_Datatype.exe
+D:\Programming\C_Sharp_Programs\Enum_Datatype\bin\Debug\Enum_Datatype.pdb
+D:\Programming\C_Sharp_Programs\Enum_Datatype\obj\Debug\Enum_Datatype.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Enum_Datatype\obj\Debug\Enum_Datatype.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Enum_Datatype\obj\Debug\Enum_Datatype.exe
+D:\Programming\C_Sharp_Programs\Enum_Datatype\obj\Debug\Enum_Datatype.pdb

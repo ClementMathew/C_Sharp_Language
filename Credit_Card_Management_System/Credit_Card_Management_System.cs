@@ -65,7 +65,7 @@ namespace Credit_Card_Management_System
 
         private static void UpdateCardData()
         {
-            Console.WriteLine("Enetr card number : ");
+            Console.WriteLine("Enter card number : ");
             long num = long.Parse(Console.ReadLine());
 
             Console.WriteLine("Enter card holder name : ");

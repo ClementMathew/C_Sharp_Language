@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Value_and_Reference_Type\bin\Debug\Value_and_Reference_Type.exe.config
+D:\Programming\C_Sharp_Programs\Value_and_Reference_Type\bin\Debug\Value_and_Reference_Type.exe
+D:\Programming\C_Sharp_Programs\Value_and_Reference_Type\bin\Debug\Value_and_Reference_Type.pdb
+D:\Programming\C_Sharp_Programs\Value_and_Reference_Type\obj\Debug\Value_and_Reference_Type.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Value_and_Reference_Type\obj\Debug\Value_and_Reference_Type.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Value_and_Reference_Type\obj\Debug\Value_and_Reference_Type.exe
+D:\Programming\C_Sharp_Programs\Value_and_Reference_Type\obj\Debug\Value_and_Reference_Type.pdb

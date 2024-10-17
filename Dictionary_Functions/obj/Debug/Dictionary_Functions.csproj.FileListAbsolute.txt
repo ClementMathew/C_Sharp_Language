@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Dictionary_Functions\bin\Debug\Dictionary_Functions.exe.config
+D:\Programming\C_Sharp_Programs\Dictionary_Functions\bin\Debug\Dictionary_Functions.exe
+D:\Programming\C_Sharp_Programs\Dictionary_Functions\bin\Debug\Dictionary_Functions.pdb
+D:\Programming\C_Sharp_Programs\Dictionary_Functions\obj\Debug\Dictionary_Functions.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Dictionary_Functions\obj\Debug\Dictionary_Functions.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Dictionary_Functions\obj\Debug\Dictionary_Functions.exe
+D:\Programming\C_Sharp_Programs\Dictionary_Functions\obj\Debug\Dictionary_Functions.pdb

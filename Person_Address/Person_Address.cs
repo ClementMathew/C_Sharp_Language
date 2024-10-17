@@ -31,7 +31,7 @@ namespace Person_Address
         static void Main(string[] args)
         {
 
-            // First Method of intialization.
+            // First Method of initialization.
 
             Person person = new Person();
 
@@ -50,7 +50,7 @@ namespace Person_Address
             Console.WriteLine($"First method : \n{addresses}");
 
 
-            // Second Method of intialization.
+            // Second Method of initialization.
 
             Person person2 = new Person();
 
@@ -67,7 +67,7 @@ namespace Person_Address
                 Console.WriteLine(address);
             }
 
-            // Third method of intialization.
+            // Third method of initialization.
 
             Person person3 = new Person();
 

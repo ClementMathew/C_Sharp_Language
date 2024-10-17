@@ -80,6 +80,11 @@ namespace Array_Functions
             int found = Array.Find(arr, element => element > 1);
             Console.WriteLine($"First element > 1 : {found}");
 
+            // Find Index
+            ;
+            int foundIndex = Array.FindIndex(arr, element => element == 1);
+            Console.WriteLine($"Founded index : {foundIndex}");
+
             // Find All
 
             int[] foundAll = Array.FindAll(arr, element => element > 1);
@@ -90,6 +95,11 @@ namespace Array_Functions
             Array.Sort(arr);
             int searchIndex = Array.BinarySearch(arr, 2);
             Console.WriteLine($"Index of 2 after BinarySearch : {searchIndex}");
+
+            // Array Foreach
+
+            Console.WriteLine("\nArray foreach : ");
+            Array.ForEach(arr, x => Console.Write((x * 2) + " "));
         }
     }
 }

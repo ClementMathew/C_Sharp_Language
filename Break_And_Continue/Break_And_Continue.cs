@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Break_And_Continue
 {
-    internal class Break_And_Continue
+    internal class Break_and_Continue
     {
         static void Main(string[] args)
         {

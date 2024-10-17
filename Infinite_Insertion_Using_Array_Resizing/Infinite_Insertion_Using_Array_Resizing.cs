@@ -11,7 +11,7 @@ namespace Infinite_Insertion_Using_Array_Resizing
         static void Main(string[] args)
         {
 
-            // Insering infinite elements to fixed size array by resizing.
+            // Inserting infinite elements to fixed size array by resizing.
 
             int[] numbers = new int[1];
             int i = 0;
@@ -40,7 +40,7 @@ namespace Infinite_Insertion_Using_Array_Resizing
             }
 
 
-            // Insering infinite elements to fixed size array by resizing with minimal two insertions.
+            // Inserting infinite elements to fixed size array by resizing with minimal two insertions.
 
             int[] numbers2 = new int[0];
             int index = 0;
@@ -58,7 +58,7 @@ namespace Infinite_Insertion_Using_Array_Resizing
 
                 Console.Write($"Enter number {numbers2.Length + 1} or q to exit : ");
                 string input = Console.ReadLine();
-                
+
                 if (input == "q")
                 {
                     break;
@@ -68,7 +68,7 @@ namespace Infinite_Insertion_Using_Array_Resizing
                 numbers2[index] = int.Parse(input);
                 index++;
             }
-        
+
             int sum = 0;
             for (int j = 0; j < numbers2.Length; j++)
             {

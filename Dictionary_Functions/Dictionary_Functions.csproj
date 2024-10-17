@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DCC3E411-AE13-44F6-99EA-474596362E16}</ProjectGuid>
+    <ProjectGuid>{B01C6658-AB9C-4645-BDA9-49B67E6D7514}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>List</RootNamespace>
-    <AssemblyName>List</AssemblyName>
+    <RootNamespace>Dictionary_Functions</RootNamespace>
+    <AssemblyName>Dictionary_Functions</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="List.cs" />
+    <Compile Include="Dictionary_Functions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
