@@ -15,14 +15,17 @@ namespace Simple_Calculator
         {
             Console.WriteLine($"The sum of {a} and {b} is {a + b}");
         }
+
         static void Substraction(int a, int b)
         {
             Console.WriteLine($"The difference of {a} and {b} is {a - b}");
         }
+
         static void Multiplication(int a, int b)
         {
             Console.WriteLine($"The product of {a} and {b} is {a * b}");
         }
+
         static void Division(float a, float b)
         {
             Console.WriteLine($"The fraction of {a} and {b} is {a / b}");

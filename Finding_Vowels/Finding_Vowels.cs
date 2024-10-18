@@ -10,7 +10,6 @@ namespace Finding_Vowels
     {
         static void Main(string[] args)
         {
-
             // Printing Vowels
 
             string textInput = "Clement";

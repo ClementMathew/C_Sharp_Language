@@ -17,7 +17,7 @@ namespace Dictionary_Functions
             // Adding a new value.
 
             dict.Add("First Name", "Gatha");
-            dict.Add("Last Name ", "Regh");
+            dict.Add("Last Name ", "Regha");
 
             Console.WriteLine("After adding values to dict3 : ");
 

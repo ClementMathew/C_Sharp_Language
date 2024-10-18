@@ -49,7 +49,7 @@ namespace List_Functions
             lst[0] = 100;
             Console.Write($"The values in the list after updating  : {string.Join(" ", lst)}\n");
 
-            // Remove an element (it will remove the first occurance of it)
+            // Remove an element (it will remove the first occurrence of it)
 
             lst.Remove(50);
             Console.Write($"The values in the list (Remove) : {string.Join(" ", lst)}\n");
@@ -107,7 +107,7 @@ namespace List_Functions
             // Find
 
             int result = lst.Find(x => x > 2);
-            Console.WriteLine($"The first occurence of value > 2 is : {result}");
+            Console.WriteLine($"The first occurrence of value > 2 is : {result}");
 
             // Find All
 

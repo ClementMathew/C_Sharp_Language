@@ -31,7 +31,7 @@ namespace Remove_Even_Numbers
                 }
             }
 
-            // printing the list
+            // Printing the list
 
             Console.Write("The list after removing even numbers : ");
 

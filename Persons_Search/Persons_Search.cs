@@ -10,7 +10,6 @@ namespace Persons_Search
     {
         static void Main(string[] args)
         {
-
             // Reading names of persons.
 
             Console.WriteLine("Enter the number of persons : ");

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Static_Variables
+namespace Action_Delegate
 {
-    internal class Program
+    internal class Action_Delegate
     {
         static void Main(string[] args)
         {

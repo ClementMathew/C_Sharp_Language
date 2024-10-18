@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Reverse_Parameter\bin\Debug\Reverse_Parameter.exe.config
+D:\Programming\C_Sharp_Programs\Reverse_Parameter\bin\Debug\Reverse_Parameter.exe
+D:\Programming\C_Sharp_Programs\Reverse_Parameter\bin\Debug\Reverse_Parameter.pdb
+D:\Programming\C_Sharp_Programs\Reverse_Parameter\obj\Debug\Reverse_Parameter.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Reverse_Parameter\obj\Debug\Reverse_Parameter.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Reverse_Parameter\obj\Debug\Reverse_Parameter.exe
+D:\Programming\C_Sharp_Programs\Reverse_Parameter\obj\Debug\Reverse_Parameter.pdb

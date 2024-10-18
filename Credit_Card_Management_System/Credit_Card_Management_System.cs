@@ -76,7 +76,7 @@ namespace Credit_Card_Management_System
 
         private static void SearchCardData()
         {
-            Console.WriteLine("Enetr card number : ");
+            Console.WriteLine("Enter card number : ");
             long num = long.Parse(Console.ReadLine());
 
             cardManager.SearchCard(num);

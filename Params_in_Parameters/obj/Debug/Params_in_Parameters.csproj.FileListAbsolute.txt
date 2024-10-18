@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Params_in_Parameters\bin\Debug\Params_in_Parameters.exe.config
+D:\Programming\C_Sharp_Programs\Params_in_Parameters\bin\Debug\Params_in_Parameters.exe
+D:\Programming\C_Sharp_Programs\Params_in_Parameters\bin\Debug\Params_in_Parameters.pdb
+D:\Programming\C_Sharp_Programs\Params_in_Parameters\obj\Debug\Params_in_Parameters.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Params_in_Parameters\obj\Debug\Params_in_Parameters.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Params_in_Parameters\obj\Debug\Params_in_Parameters.exe
+D:\Programming\C_Sharp_Programs\Params_in_Parameters\obj\Debug\Params_in_Parameters.pdb

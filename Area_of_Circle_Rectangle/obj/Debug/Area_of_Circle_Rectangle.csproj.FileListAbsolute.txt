@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Area_of_Circle_Rectangle\bin\Debug\Area_of_Circle_Rectangle.exe.config
+D:\Programming\C_Sharp_Programs\Area_of_Circle_Rectangle\bin\Debug\Area_of_Circle_Rectangle.exe
+D:\Programming\C_Sharp_Programs\Area_of_Circle_Rectangle\bin\Debug\Area_of_Circle_Rectangle.pdb
+D:\Programming\C_Sharp_Programs\Area_of_Circle_Rectangle\obj\Debug\Area_of_Circle_Rectangle.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Area_of_Circle_Rectangle\obj\Debug\Area_of_Circle_Rectangle.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Area_of_Circle_Rectangle\obj\Debug\Area_of_Circle_Rectangle.exe
+D:\Programming\C_Sharp_Programs\Area_of_Circle_Rectangle\obj\Debug\Area_of_Circle_Rectangle.pdb

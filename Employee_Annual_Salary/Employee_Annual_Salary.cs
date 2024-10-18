@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace Employee_Annual_Salary
 {
-
     class Employee
     {
         public string FirstName;
@@ -18,6 +17,7 @@ namespace Employee_Annual_Salary
             Console.WriteLine($"Total Salary : {Salary * 12}");
         }
     }
+
     internal class Employee_Annual_Salary
     {
         static void Main(string[] args)

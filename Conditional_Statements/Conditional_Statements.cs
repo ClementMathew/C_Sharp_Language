@@ -10,7 +10,6 @@ namespace Conditional_Statements
     {
         static void Main(string[] args)
         {
-
             // IF-ELSE CONDITIONAL STATEMENTS
 
 
@@ -26,7 +25,7 @@ namespace Conditional_Statements
             {
                 Console.WriteLine("Yes, you can drive.");
             }
-            
+
             Console.WriteLine();
 
 
@@ -55,9 +54,8 @@ namespace Conditional_Statements
             {
                 Console.WriteLine("F Grade");
             }
-            
-            Console.WriteLine();
 
+            Console.WriteLine();
 
 
             // SWITCH CASE CONDITIONAL STATEMENTS

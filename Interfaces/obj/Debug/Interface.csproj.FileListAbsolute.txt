@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Interfaces\bin\Debug\Interfaces.exe.config
+D:\Programming\C_Sharp_Programs\Interfaces\bin\Debug\Interfaces.exe
+D:\Programming\C_Sharp_Programs\Interfaces\bin\Debug\Interfaces.pdb
+D:\Programming\C_Sharp_Programs\Interfaces\obj\Debug\Interface.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Interfaces\obj\Debug\Interface.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Interfaces\obj\Debug\Interfaces.exe
+D:\Programming\C_Sharp_Programs\Interfaces\obj\Debug\Interfaces.pdb

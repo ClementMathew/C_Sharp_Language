@@ -13,6 +13,7 @@ namespace Enum_Datatype
             UpperCase,
             LowerCase
         }
+
         public static void ConvertCasing(string input, ConvertTo targetType)
         {
 
@@ -27,6 +28,7 @@ namespace Enum_Datatype
                     break;
             }
         }
+
         static void Main()
         {
             ConvertCasing("Hello", ConvertTo.LowerCase);

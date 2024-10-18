@@ -10,7 +10,6 @@ namespace Iteration_Statements
     {
         static void Main(string[] args)
         {
-
             // For loop statement.
 
             Console.Write("For loop : ");

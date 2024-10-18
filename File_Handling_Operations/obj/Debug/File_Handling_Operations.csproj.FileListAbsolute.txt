@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\File_Handling_Operations\bin\Debug\File_Handling_Operations.exe.config
+D:\Programming\C_Sharp_Programs\File_Handling_Operations\bin\Debug\File_Handling_Operations.exe
+D:\Programming\C_Sharp_Programs\File_Handling_Operations\bin\Debug\File_Handling_Operations.pdb
+D:\Programming\C_Sharp_Programs\File_Handling_Operations\obj\Debug\File_Handling_Operations.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\File_Handling_Operations\obj\Debug\File_Handling_Operations.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\File_Handling_Operations\obj\Debug\File_Handling_Operations.exe
+D:\Programming\C_Sharp_Programs\File_Handling_Operations\obj\Debug\File_Handling_Operations.pdb

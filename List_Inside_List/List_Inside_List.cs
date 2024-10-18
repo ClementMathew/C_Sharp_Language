@@ -10,7 +10,6 @@ namespace List_Inside_List
     {
         static void Main(string[] args)
         {
-
             // Store the marks of 3 subjects of 2 students using list in list.
 
             var data = new List<List<int>>();
@@ -29,7 +28,7 @@ namespace List_Inside_List
                 data.Add(Marks);
             }
 
-            // displaying the mark
+            // Displaying the mark
 
             foreach (var Marks in data)
             {

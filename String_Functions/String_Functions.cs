@@ -11,7 +11,6 @@ namespace String_Functions
     {
         static void Main(string[] args)
         {
-
             // String functions.
 
             string text = "    Hello World    ";
@@ -62,7 +61,7 @@ namespace String_Functions
             // Concat.
 
             string fullText = string.Concat(text1, " ", text2);
-            Console.WriteLine($"\nConcatinating {text1} with {text2} with concat : {fullText}\n");
+            Console.WriteLine($"\nConcatenating {text1} with {text2} with concat : {fullText}\n");
 
             // Split.
 

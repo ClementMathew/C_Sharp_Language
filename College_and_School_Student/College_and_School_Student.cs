@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace College_and_School_Student
 {
-
-    abstract class Student
+    class Student
     {
         public string Name { get; set; }
         public string Email { get; set; }
     }
+
     class College : Student
     {
         public string CollegeName { get; set; }
@@ -21,9 +21,11 @@ namespace College_and_School_Student
             return $"The student {Name} with id {Email} studying in {CollegeName}";
         }
     }
+
     class School : Student
     {
         public string SchoolName { get; set; }
+
         public override string ToString()
         {
             return $"The student {Name} with id {Email} studying in {SchoolName}";
