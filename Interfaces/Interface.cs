@@ -9,6 +9,7 @@ namespace Interfaces
     interface IStudent
     {
         string Name { get; set; }
+
         void Display();
     }
 

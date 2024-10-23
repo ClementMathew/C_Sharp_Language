@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Person_Work\bin\Debug\Person_Work.exe.config
+D:\Programming\C_Sharp_Programs\Person_Work\bin\Debug\Person_Work.exe
+D:\Programming\C_Sharp_Programs\Person_Work\bin\Debug\Person_Work.pdb
+D:\Programming\C_Sharp_Programs\Person_Work\obj\Debug\Person_Work.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Person_Work\obj\Debug\Person_Work.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Person_Work\obj\Debug\Person_Work.exe
+D:\Programming\C_Sharp_Programs\Person_Work\obj\Debug\Person_Work.pdb

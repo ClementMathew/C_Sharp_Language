@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Animal_Speak\bin\Debug\Animal_Speak.exe.config
+D:\Programming\C_Sharp_Programs\Animal_Speak\bin\Debug\Animal_Speak.exe
+D:\Programming\C_Sharp_Programs\Animal_Speak\bin\Debug\Animal_Speak.pdb
+D:\Programming\C_Sharp_Programs\Animal_Speak\obj\Debug\Animal_Speak.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Animal_Speak\obj\Debug\Animal_Speak.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Animal_Speak\obj\Debug\Animal_Speak.exe
+D:\Programming\C_Sharp_Programs\Animal_Speak\obj\Debug\Animal_Speak.pdb

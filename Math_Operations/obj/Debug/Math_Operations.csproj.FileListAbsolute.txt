@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Math_Operations\bin\Debug\Math_Operations.exe.config
+D:\Programming\C_Sharp_Programs\Math_Operations\bin\Debug\Math_Operations.exe
+D:\Programming\C_Sharp_Programs\Math_Operations\bin\Debug\Math_Operations.pdb
+D:\Programming\C_Sharp_Programs\Math_Operations\obj\Debug\Math_Operations.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Math_Operations\obj\Debug\Math_Operations.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Math_Operations\obj\Debug\Math_Operations.exe
+D:\Programming\C_Sharp_Programs\Math_Operations\obj\Debug\Math_Operations.pdb

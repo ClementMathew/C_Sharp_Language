@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Predicate\bin\Debug\Predicate.exe.config
+D:\Programming\C_Sharp_Programs\Predicate\bin\Debug\Predicate.exe
+D:\Programming\C_Sharp_Programs\Predicate\bin\Debug\Predicate.pdb
+D:\Programming\C_Sharp_Programs\Predicate\obj\Debug\Predicate.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Predicate\obj\Debug\Predicate.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Predicate\obj\Debug\Predicate.exe
+D:\Programming\C_Sharp_Programs\Predicate\obj\Debug\Predicate.pdb

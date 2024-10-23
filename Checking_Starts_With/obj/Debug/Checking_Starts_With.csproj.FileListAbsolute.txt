@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Checking_Starts_With\bin\Debug\Checking_Starts_With.exe.config
+D:\Programming\C_Sharp_Programs\Checking_Starts_With\bin\Debug\Checking_Starts_With.exe
+D:\Programming\C_Sharp_Programs\Checking_Starts_With\bin\Debug\Checking_Starts_With.pdb
+D:\Programming\C_Sharp_Programs\Checking_Starts_With\obj\Debug\Checking_Starts_With.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Checking_Starts_With\obj\Debug\Checking_Starts_With.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Checking_Starts_With\obj\Debug\Checking_Starts_With.exe
+D:\Programming\C_Sharp_Programs\Checking_Starts_With\obj\Debug\Checking_Starts_With.pdb

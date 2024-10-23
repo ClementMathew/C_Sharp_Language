@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Static_Variables\bin\Debug\Static_Variables.exe.config
+D:\Programming\C_Sharp_Programs\Static_Variables\bin\Debug\Static_Variables.exe
+D:\Programming\C_Sharp_Programs\Static_Variables\bin\Debug\Static_Variables.pdb
+D:\Programming\C_Sharp_Programs\Static_Variables\obj\Debug\Static_Variables.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Static_Variables\obj\Debug\Static_Variables.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Static_Variables\obj\Debug\Static_Variables.exe
+D:\Programming\C_Sharp_Programs\Static_Variables\obj\Debug\Static_Variables.pdb

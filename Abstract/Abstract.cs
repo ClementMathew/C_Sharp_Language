@@ -1,69 +1,47 @@
-﻿//using System;
+﻿using System;
 
-//namespace Abstract
-//{
-//    abstract class CalculatorBase
-//    {
-//        public void Add(int a, int b) => Console.WriteLine(a + b);
+namespace Abstract
+{
+    // Abstract base class
 
-//        public void Subtract(int a, int b) => Console.WriteLine(a - b);
+    abstract class StudentBase
+    {
+        // Property for student's name
 
-//        public void Multiply(int a, int b) => Console.WriteLine(a * b);
+        public string Name { get; set; }
 
-//        // Virtual method for Divide, can be overridden
+        // Abstract method to be implemented by derived classes
 
-//        public virtual void Divide(int a, int b) => Console.WriteLine(a / b);
+        public abstract void Display();
+    }
 
-//        // Abstract method to be implemented in derived class
+    // Derived class inheriting from StudentBase
 
-//        public abstract void Power(int a, int b);
-//    }
+    class Student : StudentBase
+    {
+        // Property for student's grade
 
-//    class Calculator : CalculatorBase
-//    {
-//        // Override the Divide method to handle division by zero
+        public string Grade { get; set; }
 
-//        public override void Divide(int a, int b)
-//        {
-//            if (b == 0)
-//            {
-//                Console.WriteLine("Division by zero is not possible.");
-//                return;
-//            }
-//            base.Divide(a, b);
-//        }
+        // Implementing the abstract method
 
-//        // Implement the abstract Power method
+        public override void Display()
+        {
+            Console.WriteLine($"Name: {Name}, Grade: {Grade}");
+        }
+    }
 
-//        public override void Power(int a, int b)
-//        {
-//            Console.WriteLine(Math.Pow(a, b));
-//        }
-//    }
+    internal class Abstract
+    {
+        static void Main(string[] args)
+        {
+            // Create an instance of the derived class Student
 
-//    internal class Abstract
-//    {
-//        static void Main(string[] args)
-//        {
-//            var calculator = new Calculator();
+            var student = new Student { Name = "John Doe", Grade = "A" };
 
-//            // Performing operations
+            // Call the Display method
 
-//            calculator.Add(10, 5);
-//            calculator.Subtract(10, 5);
-//            calculator.Multiply(10, 5);
-
-//            // Demonstrate division by a non-zero number
-
-//            calculator.Divide(10, 2);
-
-//            // Demonstrate division by zero
-
-//            calculator.Divide(10, 0);
-
-//            // Demonstrate power calculation
-
-//            calculator.Power(2, 3);
-//        }
-//    }
-//}
+            student.Display();
+        }
+    }
+}

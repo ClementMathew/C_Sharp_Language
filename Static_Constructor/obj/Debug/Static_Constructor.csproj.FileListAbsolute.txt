@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Static_Constructor\bin\Debug\Static_Constructor.exe.config
+D:\Programming\C_Sharp_Programs\Static_Constructor\bin\Debug\Static_Constructor.exe
+D:\Programming\C_Sharp_Programs\Static_Constructor\bin\Debug\Static_Constructor.pdb
+D:\Programming\C_Sharp_Programs\Static_Constructor\obj\Debug\Static_Constructor.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Static_Constructor\obj\Debug\Static_Constructor.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Static_Constructor\obj\Debug\Static_Constructor.exe
+D:\Programming\C_Sharp_Programs\Static_Constructor\obj\Debug\Static_Constructor.pdb

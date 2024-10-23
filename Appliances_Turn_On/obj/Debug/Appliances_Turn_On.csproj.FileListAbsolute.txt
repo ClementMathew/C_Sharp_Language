@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Appliances_Turn_On\bin\Debug\Appliances_Turn_On.exe.config
+D:\Programming\C_Sharp_Programs\Appliances_Turn_On\bin\Debug\Appliances_Turn_On.exe
+D:\Programming\C_Sharp_Programs\Appliances_Turn_On\bin\Debug\Appliances_Turn_On.pdb
+D:\Programming\C_Sharp_Programs\Appliances_Turn_On\obj\Debug\Appliances_Turn_On.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Appliances_Turn_On\obj\Debug\Appliances_Turn_On.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Appliances_Turn_On\obj\Debug\Appliances_Turn_On.exe
+D:\Programming\C_Sharp_Programs\Appliances_Turn_On\obj\Debug\Appliances_Turn_On.pdb
