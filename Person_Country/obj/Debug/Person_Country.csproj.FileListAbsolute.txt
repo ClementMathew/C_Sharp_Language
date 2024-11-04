@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Person_Country\bin\Debug\Person_Country.exe.config
+D:\Programming\C_Sharp_Programs\Person_Country\bin\Debug\Person_Country.exe
+D:\Programming\C_Sharp_Programs\Person_Country\bin\Debug\Person_Country.pdb
+D:\Programming\C_Sharp_Programs\Person_Country\obj\Debug\Person_Country.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Person_Country\obj\Debug\Person_Country.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Person_Country\obj\Debug\Person_Country.exe
+D:\Programming\C_Sharp_Programs\Person_Country\obj\Debug\Person_Country.pdb

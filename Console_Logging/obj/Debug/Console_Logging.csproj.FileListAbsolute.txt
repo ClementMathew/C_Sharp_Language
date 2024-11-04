@@ -1,0 +1,11 @@
+D:\Programming\C_Sharp_Programs\Console_Logging\bin\Debug\Console_Logging.exe.config
+D:\Programming\C_Sharp_Programs\Console_Logging\bin\Debug\Console_Logging.exe
+D:\Programming\C_Sharp_Programs\Console_Logging\bin\Debug\Console_Logging.pdb
+D:\Programming\C_Sharp_Programs\Console_Logging\bin\Debug\log4net.dll
+D:\Programming\C_Sharp_Programs\Console_Logging\bin\Debug\log4net.pdb
+D:\Programming\C_Sharp_Programs\Console_Logging\bin\Debug\log4net.xml
+D:\Programming\C_Sharp_Programs\Console_Logging\obj\Debug\Console_Logging.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Console_Logging\obj\Debug\Console_Logging.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Console_Logging\obj\Debug\Console_.10A53CF4.Up2Date
+D:\Programming\C_Sharp_Programs\Console_Logging\obj\Debug\Console_Logging.exe
+D:\Programming\C_Sharp_Programs\Console_Logging\obj\Debug\Console_Logging.pdb

@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Shape_With_Covariance\bin\Debug\Shape_With_Covariance.exe.config
+D:\Programming\C_Sharp_Programs\Shape_With_Covariance\bin\Debug\Shape_With_Covariance.exe
+D:\Programming\C_Sharp_Programs\Shape_With_Covariance\bin\Debug\Shape_With_Covariance.pdb
+D:\Programming\C_Sharp_Programs\Shape_With_Covariance\obj\Debug\Shape_With_Covariance.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Shape_With_Covariance\obj\Debug\Shape_With_Covariance.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Shape_With_Covariance\obj\Debug\Shape_With_Covariance.exe
+D:\Programming\C_Sharp_Programs\Shape_With_Covariance\obj\Debug\Shape_With_Covariance.pdb

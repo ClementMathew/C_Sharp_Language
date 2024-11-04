@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\SQL_and_C#\bin\Debug\SQL_and_C#.exe.config
+D:\Programming\C_Sharp_Programs\SQL_and_C#\bin\Debug\SQL_and_C#.exe
+D:\Programming\C_Sharp_Programs\SQL_and_C#\bin\Debug\SQL_and_C#.pdb
+D:\Programming\C_Sharp_Programs\SQL_and_C#\obj\Debug\SQL_and_C#.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\SQL_and_C#\obj\Debug\SQL_and_C#.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\SQL_and_C#\obj\Debug\SQL_and_C#.exe
+D:\Programming\C_Sharp_Programs\SQL_and_C#\obj\Debug\SQL_and_C#.pdb

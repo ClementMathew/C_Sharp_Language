@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Mine_Sweeper\bin\Debug\Mine_Sweeper.exe.config
+D:\Programming\C_Sharp_Programs\Mine_Sweeper\bin\Debug\Mine_Sweeper.exe
+D:\Programming\C_Sharp_Programs\Mine_Sweeper\bin\Debug\Mine_Sweeper.pdb
+D:\Programming\C_Sharp_Programs\Mine_Sweeper\obj\Debug\Mine_Sweeper.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Mine_Sweeper\obj\Debug\Mine_Sweeper.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Mine_Sweeper\obj\Debug\Mine_Sweeper.exe
+D:\Programming\C_Sharp_Programs\Mine_Sweeper\obj\Debug\Mine_Sweeper.pdb

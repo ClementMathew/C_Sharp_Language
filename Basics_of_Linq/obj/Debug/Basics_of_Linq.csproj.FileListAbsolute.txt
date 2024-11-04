@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Basics_of_Linq\bin\Debug\Basics_of_Linq.exe.config
+D:\Programming\C_Sharp_Programs\Basics_of_Linq\bin\Debug\Basics_of_Linq.exe
+D:\Programming\C_Sharp_Programs\Basics_of_Linq\bin\Debug\Basics_of_Linq.pdb
+D:\Programming\C_Sharp_Programs\Basics_of_Linq\obj\Debug\Basics_of_Linq.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Basics_of_Linq\obj\Debug\Basics_of_Linq.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Basics_of_Linq\obj\Debug\Basics_of_Linq.exe
+D:\Programming\C_Sharp_Programs\Basics_of_Linq\obj\Debug\Basics_of_Linq.pdb

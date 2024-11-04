@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Library_Membership\bin\Debug\Library_Membership.exe.config
+D:\Programming\C_Sharp_Programs\Library_Membership\bin\Debug\Library_Membership.exe
+D:\Programming\C_Sharp_Programs\Library_Membership\bin\Debug\Library_Membership.pdb
+D:\Programming\C_Sharp_Programs\Library_Membership\obj\Debug\Library_Membership.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Library_Membership\obj\Debug\Library_Membership.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Library_Membership\obj\Debug\Library_Membership.exe
+D:\Programming\C_Sharp_Programs\Library_Membership\obj\Debug\Library_Membership.pdb

@@ -1,0 +1,11 @@
+D:\Programming\C_Sharp_Programs\Basic_Logging\bin\Debug\Basic_Logging.exe.config
+D:\Programming\C_Sharp_Programs\Basic_Logging\bin\Debug\Basic_Logging.exe
+D:\Programming\C_Sharp_Programs\Basic_Logging\bin\Debug\Basic_Logging.pdb
+D:\Programming\C_Sharp_Programs\Basic_Logging\bin\Debug\log4net.dll
+D:\Programming\C_Sharp_Programs\Basic_Logging\bin\Debug\log4net.pdb
+D:\Programming\C_Sharp_Programs\Basic_Logging\bin\Debug\log4net.xml
+D:\Programming\C_Sharp_Programs\Basic_Logging\obj\Debug\Basic_Logging.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Basic_Logging\obj\Debug\Basic_Logging.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Basic_Logging\obj\Debug\Basic_Lo.F182B07B.Up2Date
+D:\Programming\C_Sharp_Programs\Basic_Logging\obj\Debug\Basic_Logging.exe
+D:\Programming\C_Sharp_Programs\Basic_Logging\obj\Debug\Basic_Logging.pdb

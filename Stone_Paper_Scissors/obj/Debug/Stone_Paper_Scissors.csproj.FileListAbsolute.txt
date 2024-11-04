@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Stone_Paper_Scissors\bin\Debug\Stone_Paper_Scissors.exe.config
+D:\Programming\C_Sharp_Programs\Stone_Paper_Scissors\bin\Debug\Stone_Paper_Scissors.exe
+D:\Programming\C_Sharp_Programs\Stone_Paper_Scissors\bin\Debug\Stone_Paper_Scissors.pdb
+D:\Programming\C_Sharp_Programs\Stone_Paper_Scissors\obj\Debug\Stone_Paper_Scissors.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Stone_Paper_Scissors\obj\Debug\Stone_Paper_Scissors.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Stone_Paper_Scissors\obj\Debug\Stone_Paper_Scissors.exe
+D:\Programming\C_Sharp_Programs\Stone_Paper_Scissors\obj\Debug\Stone_Paper_Scissors.pdb

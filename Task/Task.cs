@@ -6,16 +6,27 @@ using System.Threading.Tasks;
 
 namespace Task
 {
+    class ShoppingList
+    {
+        public List<string> items = new List<string>();
+
+        public string this[int index]
+        {
+            get => items[index];
+            set { items[index] = value; }
+        }
+    }
+
     internal class Program
     {
         static void Main(string[] args)
         {
-            // array resizing
+            var list = new ShoppingList();
 
-            int[] arr = new int[1];
+            list[0] = "1";
+            list[100] = "1";
 
-            Console.WriteLine("enter");
-            int n = int.Parse(Console.ReadLine());
+            Console.WriteLine(list[100]);
         }
     }
 }

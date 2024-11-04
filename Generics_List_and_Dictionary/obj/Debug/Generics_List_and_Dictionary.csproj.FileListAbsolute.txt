@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Generics_List_and_Dictionary\bin\Debug\Generics_List_and_Dictionary.exe.config
+D:\Programming\C_Sharp_Programs\Generics_List_and_Dictionary\bin\Debug\Generics_List_and_Dictionary.exe
+D:\Programming\C_Sharp_Programs\Generics_List_and_Dictionary\bin\Debug\Generics_List_and_Dictionary.pdb
+D:\Programming\C_Sharp_Programs\Generics_List_and_Dictionary\obj\Debug\Generics_List_and_Dictionary.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Generics_List_and_Dictionary\obj\Debug\Generics_List_and_Dictionary.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Generics_List_and_Dictionary\obj\Debug\Generics_List_and_Dictionary.exe
+D:\Programming\C_Sharp_Programs\Generics_List_and_Dictionary\obj\Debug\Generics_List_and_Dictionary.pdb

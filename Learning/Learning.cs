@@ -8,17 +8,9 @@ namespace Learning
 {
     internal class Learning
     {
-
-        static void ChangeString(string name)
-        {
-            name = "Old";
-        }
         static void Main(string[] args)
         {
-            string text = "Clement";
-            ChangeString(text);
 
-            Console.WriteLine();
         }
     }
 }
