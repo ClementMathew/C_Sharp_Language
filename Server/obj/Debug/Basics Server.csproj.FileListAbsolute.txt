@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Server\bin\Debug\Server.exe.config
+D:\Programming\C_Sharp_Programs\Server\bin\Debug\Server.exe
+D:\Programming\C_Sharp_Programs\Server\bin\Debug\Server.pdb
+D:\Programming\C_Sharp_Programs\Server\obj\Debug\Basics Server.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Server\obj\Debug\Basics Server.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Server\obj\Debug\Server.exe
+D:\Programming\C_Sharp_Programs\Server\obj\Debug\Server.pdb

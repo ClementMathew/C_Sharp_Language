@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Ref_and_Out\bin\Debug\Ref_and_Out.exe.config
+D:\Programming\C_Sharp_Programs\Ref_and_Out\bin\Debug\Ref_and_Out.exe
+D:\Programming\C_Sharp_Programs\Ref_and_Out\bin\Debug\Ref_and_Out.pdb
+D:\Programming\C_Sharp_Programs\Ref_and_Out\obj\Debug\Ref_and_Out.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Ref_and_Out\obj\Debug\Ref_and_Out.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Ref_and_Out\obj\Debug\Ref_and_Out.exe
+D:\Programming\C_Sharp_Programs\Ref_and_Out\obj\Debug\Ref_and_Out.pdb

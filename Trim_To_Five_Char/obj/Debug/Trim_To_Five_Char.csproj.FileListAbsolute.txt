@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Trim_To_Five_Char\bin\Debug\Trim_To_Five_Char.exe.config
+D:\Programming\C_Sharp_Programs\Trim_To_Five_Char\bin\Debug\Trim_To_Five_Char.exe
+D:\Programming\C_Sharp_Programs\Trim_To_Five_Char\bin\Debug\Trim_To_Five_Char.pdb
+D:\Programming\C_Sharp_Programs\Trim_To_Five_Char\obj\Debug\Trim_To_Five_Char.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Trim_To_Five_Char\obj\Debug\Trim_To_Five_Char.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Trim_To_Five_Char\obj\Debug\Trim_To_Five_Char.exe
+D:\Programming\C_Sharp_Programs\Trim_To_Five_Char\obj\Debug\Trim_To_Five_Char.pdb

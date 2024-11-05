@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6B7D6EEC-05ED-4484-87B5-417FECE0277D}</ProjectGuid>
+    <ProjectGuid>{DE764679-DCB4-4AE0-8814-D39697A78CE0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Echo_Server</RootNamespace>
-    <AssemblyName>Echo_Server</AssemblyName>
+    <RootNamespace>Echo_server</RootNamespace>
+    <AssemblyName>Echo_server</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Echo_Server.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Echo_Server
+namespace Echo_server
 {
-    internal class Program
+    internal class Echo_Server
     {
         static void Main(string[] args)
         {

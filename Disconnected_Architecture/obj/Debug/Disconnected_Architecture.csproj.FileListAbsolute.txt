@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Disconnected_Architecture\bin\Debug\Disconnected_Architecture.exe.config
+D:\Programming\C_Sharp_Programs\Disconnected_Architecture\bin\Debug\Disconnected_Architecture.exe
+D:\Programming\C_Sharp_Programs\Disconnected_Architecture\bin\Debug\Disconnected_Architecture.pdb
+D:\Programming\C_Sharp_Programs\Disconnected_Architecture\obj\Debug\Disconnected_Architecture.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Disconnected_Architecture\obj\Debug\Disconnected_Architecture.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Disconnected_Architecture\obj\Debug\Disconnected_Architecture.exe
+D:\Programming\C_Sharp_Programs\Disconnected_Architecture\obj\Debug\Disconnected_Architecture.pdb

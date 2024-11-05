@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Tryparse_Using_Out\bin\Debug\Tryparse_Using_Out.exe.config
+D:\Programming\C_Sharp_Programs\Tryparse_Using_Out\bin\Debug\Tryparse_Using_Out.exe
+D:\Programming\C_Sharp_Programs\Tryparse_Using_Out\bin\Debug\Tryparse_Using_Out.pdb
+D:\Programming\C_Sharp_Programs\Tryparse_Using_Out\obj\Debug\Tryparse_Using_Out.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Tryparse_Using_Out\obj\Debug\Tryparse_Using_Out.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Tryparse_Using_Out\obj\Debug\Tryparse_Using_Out.exe
+D:\Programming\C_Sharp_Programs\Tryparse_Using_Out\obj\Debug\Tryparse_Using_Out.pdb

@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Http\bin\Debug\Http.exe.config
+D:\Programming\C_Sharp_Programs\Http\bin\Debug\Http.exe
+D:\Programming\C_Sharp_Programs\Http\bin\Debug\Http.pdb
+D:\Programming\C_Sharp_Programs\Http\obj\Debug\Http_Request.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Http\obj\Debug\Http_Request.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Http\obj\Debug\Http.exe
+D:\Programming\C_Sharp_Programs\Http\obj\Debug\Http.pdb

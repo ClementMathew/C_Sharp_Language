@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Client\bin\Debug\Client.exe.config
+D:\Programming\C_Sharp_Programs\Client\bin\Debug\Client.exe
+D:\Programming\C_Sharp_Programs\Client\bin\Debug\Client.pdb
+D:\Programming\C_Sharp_Programs\Client\obj\Debug\Basics Client.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Client\obj\Debug\Basics Client.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Client\obj\Debug\Client.exe
+D:\Programming\C_Sharp_Programs\Client\obj\Debug\Client.pdb
