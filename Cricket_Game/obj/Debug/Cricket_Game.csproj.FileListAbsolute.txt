@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Cricket_Game\obj\Debug\Cricket_Game.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Cricket_Game\obj\Debug\Cricket_Game.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Cricket_Game\bin\Debug\Cricket_Game.exe.config
+D:\Programming\C_Sharp_Programs\Cricket_Game\bin\Debug\Cricket_Game.exe
+D:\Programming\C_Sharp_Programs\Cricket_Game\bin\Debug\Cricket_Game.pdb
+D:\Programming\C_Sharp_Programs\Cricket_Game\obj\Debug\Cricket_Game.exe
+D:\Programming\C_Sharp_Programs\Cricket_Game\obj\Debug\Cricket_Game.pdb

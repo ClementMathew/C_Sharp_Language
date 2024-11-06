@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Cricket_Game.Models
 {
-    internal class Player
+    enum TossType
     {
-        public string Name { get; set; }
-        public int Score { get; set; }
+        UserBat,
+        UserBowl,
+        Computer
     }
 }

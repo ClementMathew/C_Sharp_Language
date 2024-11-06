@@ -52,11 +52,11 @@ namespace SQL_and_C_
 
             var query = $"SELECT id, name, author, price from Books";
 
-            using (var connn = new SqlConnection(connString))
+            using (var conn = new SqlConnection(connString))
             {
-                connn.Open();
-                var commandd = new SqlCommand(query, connn);
-                var reader = commandd.ExecuteReader();
+                conn.Open();
+                var command = new SqlCommand(query, conn);
+                var reader = command.ExecuteReader();
 
                 while (reader.Read())
                 {

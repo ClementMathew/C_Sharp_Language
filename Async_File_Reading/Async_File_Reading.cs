@@ -3,49 +3,59 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Async_File_Reading
 {
     internal class Async_File_Reading
     {
+        public class FileReadAsync
+        {
+            public void ReadAsync(string filePath)
+            {
+                var thread = new Thread(() =>
+                {
+                    var content = File.ReadAllLines(filePath);
+
+                    foreach (var line in content)
+                    {
+                        Console.WriteLine(line);
+                        Thread.Sleep(1000);
+                    }
+                });
+                thread.Start();
+            }
+        }
+
         public static async Task Main(string[] args)
         {
-
-            string path = @"C:\Users\cleme\Documents";
-            string fileName = "sample.txt"; // Path to the file you want to read
+            string path = @"C:\Users\cleme\Documents\AsyncRead";
+            string fileName = "AsyncRead.txt";
 
             var filePath = Path.Combine(path, fileName);
 
             if (Directory.Exists(path))
             {
-                Console.WriteLine("Exists.");
+                Console.WriteLine("Directory Exists...");
             }
             else
             {
                 Directory.CreateDirectory(path);
+                Console.WriteLine("Directory Created!");
+            }
+            if (File.Exists(filePath))
+            {
+                Console.WriteLine("File Exists...");
+            }
+            else
+            {
+                File.WriteAllText(filePath, "Hello Clement...");
+                Console.WriteLine("File Created...");
             }
 
-            try
-            {
-
-            }
-            catch (FileNotFoundException)
-            {
-                Console.WriteLine("Error: The file was not found.");
-            }
-            catch (UnauthorizedAccessException)
-            {
-                Console.WriteLine("Error: You do not have permission to access this file.");
-            }
-            catch (IOException ex)
-            {
-                Console.WriteLine($"An I/O error occurred: {ex.Message}");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"An unexpected error occurred: {ex.Message}");
-            }
+            var readAsync = new FileReadAsync();
+            readAsync.ReadAsync(filePath);
         }
     }
 }

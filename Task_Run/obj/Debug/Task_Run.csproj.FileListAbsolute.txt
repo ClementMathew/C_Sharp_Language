@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Task_Run\bin\Debug\Task_Run.exe.config
+D:\Programming\C_Sharp_Programs\Task_Run\bin\Debug\Task_Run.exe
+D:\Programming\C_Sharp_Programs\Task_Run\bin\Debug\Task_Run.pdb
+D:\Programming\C_Sharp_Programs\Task_Run\obj\Debug\Task_Run.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Task_Run\obj\Debug\Task_Run.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Task_Run\obj\Debug\Task_Run.exe
+D:\Programming\C_Sharp_Programs\Task_Run\obj\Debug\Task_Run.pdb

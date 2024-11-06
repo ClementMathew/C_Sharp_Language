@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Echo_server\bin\Debug\Echo_server.exe.config
+D:\Programming\C_Sharp_Programs\Echo_server\bin\Debug\Echo_server.exe
+D:\Programming\C_Sharp_Programs\Echo_server\bin\Debug\Echo_server.pdb
+D:\Programming\C_Sharp_Programs\Echo_server\obj\Debug\Echo_server.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Echo_server\obj\Debug\Echo_server.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Echo_server\obj\Debug\Echo_server.exe
+D:\Programming\C_Sharp_Programs\Echo_server\obj\Debug\Echo_server.pdb

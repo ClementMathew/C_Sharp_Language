@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Async_File_Reading\bin\Debug\Async_File_Reading.exe.config
+D:\Programming\C_Sharp_Programs\Async_File_Reading\bin\Debug\Async_File_Reading.exe
+D:\Programming\C_Sharp_Programs\Async_File_Reading\bin\Debug\Async_File_Reading.pdb
+D:\Programming\C_Sharp_Programs\Async_File_Reading\obj\Debug\Async_File_Reading.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Async_File_Reading\obj\Debug\Async_File_Reading.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Async_File_Reading\obj\Debug\Async_File_Reading.exe
+D:\Programming\C_Sharp_Programs\Async_File_Reading\obj\Debug\Async_File_Reading.pdb

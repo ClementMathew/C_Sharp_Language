@@ -8,27 +8,60 @@ namespace Mine_Sweeper
 {
     internal class GameManager
     {
-        private void InitGrid(int size, CellState[,] gameArray)
-        {
-            Random rand = new Random();
+        private const int Size = 5;
+        private const int Mines = 5;
+        private CellState[,] board = new CellState[Size, Size];
+        private bool[,] opened = new bool[Size, Size];
+        private Random random = new Random();
 
-            for (int i = 0; i < size; i++)
+        public GameManager()
+        {
+            InitializeBoard();
+        }
+
+        private void InitializeBoard()
+        {
+            for (int i = 0; i < Mines; i++)
             {
-                for (int j = 0; j < size; j++)
+                int x, y;
+                do
                 {
-                    var state = (CellState)rand.Next(0, 3);
-                    gameArray[i, j] = state;
-                }
+                    x = random.Next(Size);
+                    y = random.Next(Size);
+                } while (board[x, y] == CellState.Mine);
+
+                board[x, y] = CellState.Mine;
             }
         }
 
-        private void RenderGrid(int size, CellState gameArray, bool opened)
+        public void Play()
+        {
+            while (true)
+            {
+                PrintBoard();
+
+                Console.Write("Enter row and column (e.x., 1 2): ");
+
+                var input = Console.ReadLine().Split();
+                int row = int.Parse(input[0]) - 1;
+                int col = int.Parse(input[1]) - 1;
+
+                if (board[row, col] == CellState.Mine)
+                {
+                    Console.WriteLine("Game Over! You hit a mine, Better Luck next time.");
+                    break;
+                }
+                opened[row, col] = true;
+            }
+        }
+
+        private void PrintBoard()
         {
             Console.Clear();
 
-            for (int i = 0; i < size; i++)
+            for (int i = 0; i < Size; i++)
             {
-                for (int j = 0; j < size; j++)
+                for (int j = 0; j < Size; j++)
                 {
                     if (opened[i, j])
                     {
@@ -43,40 +76,6 @@ namespace Mine_Sweeper
                     }
                 }
                 Console.WriteLine();
-            }
-        }
-
-
-        public void Play()
-        {
-            Console.WriteLine("Enter the size : ");
-            int size = int.Parse(Console.ReadLine());
-
-            CellState[,] gameArray = new CellState[size, size];
-            bool[,] opened = new bool[size, size];
-
-            InitGrid(size, gameArray);
-
-            while (true)
-            {
-                RenderGrid(size, gameArray, opened);
-                Console.WriteLine("\nEnter any index from (0,0) to (size,size) : ");
-                var index = (Console.ReadLine()).Split(',');
-
-                int indexRow = int.Parse(index[0]);
-                int indexColumn = int.Parse(index[1]);
-
-                for (int i = 0; i < size; i++)
-                {
-                    for (int j = 0; j < size; j++)
-                    {
-                        if (indexRow == i && indexColumn == j)
-                        {
-                            Console.Write($"({gameArray[i, j]})");
-                        }
-                    }
-                }
-
             }
         }
     }

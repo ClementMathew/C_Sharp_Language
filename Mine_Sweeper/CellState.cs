@@ -1,9 +1,8 @@
-﻿namespace Mine_Sweeper
+﻿
+public enum CellState
 {
-    public enum CellState
-    {
-        Point1,
-        Point2,
-        Mine
-    };
+    Point0, // No adjacent mines
+    Point1, // One adjacent mine
+    Point2, // Two adjacent mines
+    Mine    // Represents a mine
 }

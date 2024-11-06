@@ -27,7 +27,6 @@ namespace Client
         {
             Builder();
 
-
             while (true)
             {
                 Console.WriteLine("Enter : ");

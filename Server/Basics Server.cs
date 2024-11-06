@@ -14,8 +14,6 @@ namespace Server
         {
             var serverBuilder = new ServerBuilder();
             serverBuilder.Run();
-
-
         }
     }
 }

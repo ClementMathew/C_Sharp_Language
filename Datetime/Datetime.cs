@@ -36,6 +36,11 @@ namespace Datetime
             var tenDaysAndTwentyHoursFromNow = dt.AddHours(20).AddDays(10);
             Console.WriteLine($"Ten days and twenty hours added : {tenDaysAndTwentyHoursFromNow} \n");
 
+            // Subtract Hours
+
+            DateTime threeHoursAgo = dt.AddHours(-3);
+            Console.WriteLine($"Three hours subtracted : {threeHoursAgo} \n");
+
             // Formatting date and time
 
             Console.WriteLine(dt.ToString("MM-dd-yyyy hh:mm:ss"));
