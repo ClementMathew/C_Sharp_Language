@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Simple_Calculator_Using_OOPS
+﻿namespace Simple_Calculator_Using_OOPS
 {
     internal class Simple_Calculator_Using_OOPS
     {

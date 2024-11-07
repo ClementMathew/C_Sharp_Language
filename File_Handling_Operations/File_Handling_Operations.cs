@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace File_Handling_Operations
 {
@@ -49,7 +45,7 @@ namespace File_Handling_Operations
 
             // Reading the entire file content
 
-            var content = File.ReadAllText(filePath);
+            string content = File.ReadAllText(filePath);
 
             Console.WriteLine("\nFile Content:\n" + content);
 
@@ -59,7 +55,7 @@ namespace File_Handling_Operations
 
             Console.WriteLine("\nFile Content (Line by Line):");
 
-            foreach (var line in contentLines)
+            foreach (string line in contentLines)
             {
                 Console.WriteLine(line);
             }

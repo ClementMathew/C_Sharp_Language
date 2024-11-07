@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace Person_Country
 {
@@ -26,7 +23,7 @@ namespace Person_Country
 
             // Persons Problem
 
-            var data2 = new List<Person>()
+            List<Person> data2 = new List<Person>()
             {
               new Person{Name="Person 1", Country="US", Age=20},
               new Person{Name="Person 2", Country="US", Age=30},
@@ -37,11 +34,11 @@ namespace Person_Country
 
             // Persons where country is US.
 
-            var res2 = data2.Where(p => p.Country == "US");
+            IEnumerable<Person> res2 = data2.Where(p => p.Country == "US");
 
             Console.Write($"US Country : ");
 
-            foreach (var person in res2)
+            foreach (Person person in res2)
             {
                 Console.WriteLine(person.Name);
             }
@@ -49,25 +46,25 @@ namespace Person_Country
 
             // Minimum Age of Person in US.
 
-            var minAge = data2.Where(p => p.Country == "US").Min(p => p.Age);
+            int minAge = data2.Where(p => p.Country == "US").Min(p => p.Age);
 
             Console.WriteLine($"\nMinimum Age in US Country : {minAge}");
 
 
             // Person with Minimum Age.
 
-            var firstPerson = data2.Where(p => p.Country == "US" && p.Age == minAge).FirstOrDefault();
+            Person firstPerson = data2.Where(p => p.Country == "US" && p.Age == minAge).FirstOrDefault();
 
             Console.WriteLine($"\nPerson with Minimum Age in US Country : {firstPerson}");
 
 
             // Order Person by their Age.
 
-            var sorted2 = data2.OrderByDescending(p => p.Age);
+            IOrderedEnumerable<Person> sorted2 = data2.OrderByDescending(p => p.Age);
 
             Console.WriteLine($"\nPersons in order of age : ");
 
-            foreach (var person in sorted2)
+            foreach (Person person in sorted2)
             {
                 Console.WriteLine(person.Name);
             }
@@ -75,11 +72,11 @@ namespace Person_Country
 
             // List of Distinct Countries.
 
-            var distinctCountries = data2.Select(p => p.Country).Distinct();
+            IEnumerable<string> distinctCountries = data2.Select(p => p.Country).Distinct();
 
             Console.WriteLine($"\nList of Countries : ");
 
-            foreach (var person in distinctCountries)
+            foreach (string person in distinctCountries)
             {
                 Console.WriteLine(person);
             }
@@ -87,7 +84,7 @@ namespace Person_Country
 
             // Select to Dictionary.
 
-            var countries = data2.Select(p => new Dictionary<string, string>()
+            IEnumerable<Dictionary<string, string>> countries = data2.Select(p => new Dictionary<string, string>()
             {
                 { "Name", p.Name },
                 { "Country", p.Country }
@@ -95,9 +92,9 @@ namespace Person_Country
 
             Console.WriteLine("\nThe names and country in Dictionary : \n");
 
-            foreach (var country in countries)
+            foreach (Dictionary<string, string> country in countries)
             {
-                foreach (var person in country)
+                foreach (KeyValuePair<string, string> person in country)
                 {
                     Console.Write($"{person.Key} -> {person.Value} | ");
                 }
@@ -107,15 +104,15 @@ namespace Person_Country
 
             // Group by country and count of persons in each country.
 
-            var groups = data2.GroupBy(p => p.Country);
+            IEnumerable<IGrouping<string, Person>> groups = data2.GroupBy(p => p.Country);
 
             Console.WriteLine($"\nCount of persons in each country : ");
 
-            foreach (var group in groups)
+            foreach (IGrouping<string, Person> group in groups)
             {
                 Console.WriteLine($"{group.Key} - {group.Count()}");
 
-                foreach (var person in group)
+                foreach (Person person in group)
                 {
                     Console.WriteLine($"\t{person.Name}");
                 }

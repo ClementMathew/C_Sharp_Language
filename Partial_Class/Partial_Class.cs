@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Partial_Class
+﻿namespace Partial_Class
 {
     internal class Partial_Class
     {

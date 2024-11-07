@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Rectangle_Printing
 {
@@ -17,7 +13,7 @@ namespace Rectangle_Printing
             {
                 for (int j = 0; j < 3 * height; j++)
                 {
-                    if (i != 0 && j != 0 && i != height - 1 && j != 3 * height - 1) 
+                    if (i != 0 && j != 0 && i != height - 1 && j != 3 * height - 1)
                     {
                         Console.Write(" ");
                     }

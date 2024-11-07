@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Last_Character_of_String
 {
@@ -12,7 +8,7 @@ namespace Last_Character_of_String
         {
             string s = "Hello";
 
-            char lastChar = s[s.Length-1];
+            char lastChar = s[s.Length - 1];
 
             Console.WriteLine($"Last character of {s} is '{lastChar}'");
         }

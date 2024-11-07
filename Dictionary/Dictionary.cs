@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Dictionary
 {
@@ -18,7 +15,7 @@ namespace Dictionary
 
             Console.WriteLine("Key value pair from dict : ");
 
-            foreach (var item in dict)
+            foreach (KeyValuePair<string, string> item in dict)
             {
                 Console.WriteLine($"{item.Key} : {item.Value}");
             }
@@ -26,7 +23,7 @@ namespace Dictionary
 
             // Another declaration
 
-            var dict2 = new Dictionary<string, string>()
+            Dictionary<string, string> dict2 = new Dictionary<string, string>()
             {
                { "first name","gatha"},
                { "age","20" }
@@ -34,7 +31,7 @@ namespace Dictionary
 
             Console.WriteLine("Key value pair from dict2 : ");
 
-            foreach (var item in dict2)
+            foreach (KeyValuePair<string, string> item in dict2)
             {
                 Console.WriteLine($"{item.Key} : {item.Value}");
             }

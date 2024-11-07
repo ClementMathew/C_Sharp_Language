@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Predicate
 {
@@ -26,9 +23,9 @@ namespace Predicate
 
         static void GetDataBasedOnTheCondition(int[] data, Predicate<int> predicate)
         {
-            var result = new List<int>();
+            List<int> result = new List<int>();
 
-            foreach (var item in data)
+            foreach (int item in data)
             {
                 if (predicate(item))
                 {
@@ -43,7 +40,7 @@ namespace Predicate
 
         static void Main(string[] args)
         {
-            var data = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -3, -5 };
+            int[] data = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -3, -5 };
 
             // Call the method with IsEven predicate
 

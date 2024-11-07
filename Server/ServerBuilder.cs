@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Server
 {
@@ -17,7 +14,7 @@ namespace Server
 
         private void Buider()
         {
-            var ip = IPAddress.Parse(_ipAddress);
+            IPAddress ip = IPAddress.Parse(_ipAddress);
 
             _listener = new TcpListener(ip, _port);
             _listener.Start();
@@ -34,9 +31,9 @@ namespace Server
 
             while (true)
             {
-                var buffer = new byte[1024];
-                var dataClient = _socket.Receive(buffer);
-                var messageClient = Encoding.ASCII.GetString(buffer, 0, dataClient);
+                byte[] buffer = new byte[1024];
+                int dataClient = _socket.Receive(buffer);
+                string messageClient = Encoding.ASCII.GetString(buffer, 0, dataClient);
                 Console.WriteLine($"Client : {messageClient}");
 
                 if (messageClient == "exit")

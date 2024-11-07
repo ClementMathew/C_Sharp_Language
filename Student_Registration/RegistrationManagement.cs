@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Student_Registration
 {
@@ -26,7 +23,7 @@ namespace Student_Registration
 
         public void SearchStudent(string regNum)
         {
-            foreach (var student in students)
+            foreach (Student student in students)
             {
                 if (student.RegNumber == regNum)
                 {
@@ -39,7 +36,7 @@ namespace Student_Registration
 
         public void UpdateStudent(string regNum, string newName, string newClass)
         {
-            foreach (var student in students)
+            foreach (Student student in students)
             {
                 if (student.RegNumber == regNum)
                 {
@@ -55,7 +52,7 @@ namespace Student_Registration
 
         public void DeleteStudent(string regNum)
         {
-            foreach (var student in students)
+            foreach (Student student in students)
             {
                 if (student.RegNumber == regNum)
                 {

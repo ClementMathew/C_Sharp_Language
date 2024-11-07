@@ -43,7 +43,7 @@ namespace Indexer
         {
             try
             {
-                var shoppingList = new ShoppingList();
+                ShoppingList shoppingList = new ShoppingList();
 
                 // Accessing the total items count
 

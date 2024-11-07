@@ -37,7 +37,7 @@ namespace Abstract
         {
             // Create an instance of the derived class Student
 
-            var student = new Student { Name = "John Doe", Grade = "A" };
+            Student student = new Student { Name = "John Doe", Grade = "A" };
 
             // Call the Display method
 

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Static_Variables
 {
@@ -32,8 +28,8 @@ namespace Static_Variables
 
             // Creating employee instances
 
-            var e1 = new Employee { Name = "E1" };
-            var e2 = new Employee { Name = "E2" };
+            Employee e1 = new Employee { Name = "E1" };
+            Employee e2 = new Employee { Name = "E2" };
 
             // Displaying employee details before changing the company name
 

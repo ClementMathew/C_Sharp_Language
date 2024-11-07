@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SQL_and_C_
 {
@@ -13,33 +10,24 @@ namespace SQL_and_C_
 
         static void Main(string[] args)
         {
-            // Create the BOOKS table in the database
-
-            var createTableQuery = @"CREATE TABLE BOOKS
-                                     (
-                                         id INT PRIMARY KEY IDENTITY,
-                                         name VARCHAR(50),
-                                         author VARCHAR(50),
-                                         price INT
-                                     )";
 
             // Sample user input for adding a book to the database
 
             Console.Write("Name: ");
-            var name = Console.ReadLine();
+            string name = Console.ReadLine();
 
             Console.Write("Author: ");
-            var author = Console.ReadLine();
+            string author = Console.ReadLine();
 
             Console.Write("Price: ");
-            var price = Console.ReadLine();
+            string price = Console.ReadLine();
 
-            var insertQuery = $"INSERT INTO Books(name, author, price) VALUES(@name, @author, @price)";
+            string insertQuery = $"INSERT INTO Books(name, author, price) VALUES(@name, @author, @price)";
 
-            using (var conn = new SqlConnection(connString))
+            using (SqlConnection conn = new SqlConnection(connString))
             {
                 conn.Open();
-                var command = new SqlCommand(insertQuery, conn);
+                SqlCommand command = new SqlCommand(insertQuery, conn);
 
                 command.Parameters.AddWithValue("@name", name);
                 command.Parameters.AddWithValue("@author", author);
@@ -50,20 +38,20 @@ namespace SQL_and_C_
 
             // Select statement to retrieve records
 
-            var query = $"SELECT id, name, author, price from Books";
+            string query = $"SELECT id, name, author, price from Books";
 
-            using (var conn = new SqlConnection(connString))
+            using (SqlConnection conn = new SqlConnection(connString))
             {
                 conn.Open();
-                var command = new SqlCommand(query, conn);
-                var reader = command.ExecuteReader();
+                SqlCommand command = new SqlCommand(query, conn);
+                SqlDataReader reader = command.ExecuteReader();
 
                 while (reader.Read())
                 {
-                    var id = reader.GetInt32(0);
-                    var namee = reader.GetString(1);
-                    var value = reader.GetString(2);
-                    var pricee = reader.GetInt32(3);
+                    int id = reader.GetInt32(0);
+                    string namee = reader.GetString(1);
+                    string value = reader.GetString(2);
+                    int pricee = reader.GetInt32(3);
 
                     Console.WriteLine($"{id} = {namee} - {value} = {pricee}");
                 }
@@ -71,7 +59,7 @@ namespace SQL_and_C_
 
             // Inserting a list of books
 
-            var list = new List<Books>()
+            List<Books> list = new List<Books>()
             {
                 new Books{Name = "Book2", Author = "Author 2", Price = 2000},
                 new Books { Name = "Book3", Author = "Author3", Price = 150 },
@@ -80,13 +68,13 @@ namespace SQL_and_C_
                 new Books { Name = "Book6", Author = "Author6", Price = 500 },
             };
 
-            using (var connect = new SqlConnection(connString))
+            using (SqlConnection connect = new SqlConnection(connString))
             {
                 connect.Open();
-                foreach (var item in list)
+                foreach (Books item in list)
                 {
-                    var insertQ = $"INSERT INTO Books(name, author, price) VALUES(@name, @author, @price)";
-                    var command = new SqlCommand(insertQ, connect);
+                    string insertQ = $"INSERT INTO Books(name, author, price) VALUES(@name, @author, @price)";
+                    SqlCommand command = new SqlCommand(insertQ, connect);
                     command.Parameters.AddWithValue("@name", item.Name);
                     command.Parameters.AddWithValue("@author", item.Author);
                     command.Parameters.AddWithValue("@price", item.Price);

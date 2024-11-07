@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Reversing_Elements_in_Array
 {
@@ -10,7 +6,7 @@ namespace Reversing_Elements_in_Array
     {
         static void Main(string[] args)
         {
-            
+
             // Reversing elements in the array.
 
             int n;

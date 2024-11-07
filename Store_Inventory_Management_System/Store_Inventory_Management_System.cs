@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Store_Inventory_Management_System
 {
@@ -41,7 +38,7 @@ namespace Store_Inventory_Management_System
             Console.WriteLine("Enter the new stock count : ");
             int newStock = int.Parse(Console.ReadLine());
 
-            foreach (var Product in Products)
+            foreach (KeyValuePair<int, Dictionary<string, string>> Product in Products)
             {
                 if (Product.Key == id)
                 {
@@ -59,7 +56,7 @@ namespace Store_Inventory_Management_System
 
             Console.WriteLine("\n------- Products -------\n");
 
-            foreach (var Product in Products)
+            foreach (KeyValuePair<int, Dictionary<string, string>> Product in Products)
             {
                 if (Product.Key == id)
                 {
@@ -77,7 +74,7 @@ namespace Store_Inventory_Management_System
 
             Console.WriteLine("\n------- Products -------\n");
 
-            foreach (var Product in Products)
+            foreach (KeyValuePair<int, Dictionary<string, string>> Product in Products)
             {
                 int stockInt = int.Parse(Product.Value["stock"]);
 

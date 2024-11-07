@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Number_Pattern_Sum
 {
@@ -31,7 +27,7 @@ namespace Number_Pattern_Sum
             int j = 0;
             string temp = "";
 
-            for ( ; j < patternMultiple.Length ; j++)
+            for (; j < patternMultiple.Length; j++)
             {
                 if (patternMultiple[j] == '_')
                 {
@@ -50,5 +46,5 @@ namespace Number_Pattern_Sum
             }
             Console.WriteLine($"The sum of numbers in pattern {patternMultiple} is {result} \n");
         }
-    } 
+    }
 }

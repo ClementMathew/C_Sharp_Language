@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Dictionary_Functions
 {
@@ -12,7 +10,7 @@ namespace Dictionary_Functions
         {
             // Dictionary functions.
 
-            var dict = new Dictionary<string, string>();
+            Dictionary<string, string> dict = new Dictionary<string, string>();
 
             // Adding a new value.
 
@@ -21,7 +19,7 @@ namespace Dictionary_Functions
 
             Console.WriteLine("After adding values to dict3 : ");
 
-            foreach (var item in dict)
+            foreach (KeyValuePair<string, string> item in dict)
             {
                 Console.WriteLine($"{item.Key} : {item.Value}");
             }
@@ -32,7 +30,7 @@ namespace Dictionary_Functions
 
             Console.WriteLine("\nValues after Removing Last Name in dict3 : ");
 
-            foreach (var item in dict)
+            foreach (KeyValuePair<string, string> item in dict)
             {
                 Console.WriteLine($"{item.Key} : {item.Value}");
             }
@@ -108,8 +106,8 @@ namespace Dictionary_Functions
 
             Dictionary<int, string> dict3 = new Dictionary<int, string> { { 1, "Banana" }, { 2, "Apple" }, { 3, "Cherry" } };
 
-            var maxKey = dict3.Max(kvp => kvp.Key);
-            var minValue = dict3.Min(kvp => kvp.Value);
+            int maxKey = dict3.Max(kvp => kvp.Key);
+            string minValue = dict3.Min(kvp => kvp.Value);
 
             Console.WriteLine($"\nThe (Max) in Keys of dict : {maxKey}");
             Console.WriteLine($"The (Min) in Values of dict : {minValue}");

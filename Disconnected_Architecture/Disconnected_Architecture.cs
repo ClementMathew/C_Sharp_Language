@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Disconnected_Architecture
 {
@@ -15,13 +11,13 @@ namespace Disconnected_Architecture
             string connStr = "Server=CLEMENTS-ASUS-V\\SQLEXPRESS;Database=Disconnected_Architecture;Trusted_Connection=True";
 
             DataTable dt = new DataTable();
-            var conn = new SqlConnection(connStr);
+            SqlConnection conn = new SqlConnection(connStr);
 
             // Query from Database
 
             string query = "SELECT * FROM Data";
 
-            var adapter = new SqlDataAdapter(query, conn);
+            SqlDataAdapter adapter = new SqlDataAdapter(query, conn);
             adapter.Fill(dt);
 
             foreach (DataRow row in dt.Rows)
@@ -32,9 +28,9 @@ namespace Disconnected_Architecture
 
             // Update
 
-            var commandBuilder = new SqlCommandBuilder(adapter);
+            SqlCommandBuilder commandBuilder = new SqlCommandBuilder(adapter);
 
-            var newRow = dt.NewRow();
+            DataRow newRow = dt.NewRow();
             newRow["Id"] = 2;
             newRow["Name"] = "Mathew";
 

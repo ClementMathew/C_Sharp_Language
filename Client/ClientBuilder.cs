@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Client
 {
@@ -16,7 +13,7 @@ namespace Client
 
         private void Builder()
         {
-            var _ip = IPAddress.Parse(_ipAddress);
+            IPAddress _ip = IPAddress.Parse(_ipAddress);
 
             _client = new TcpClient();
             _client.Connect(_ip, _port);
@@ -42,9 +39,9 @@ namespace Client
                     break;
                 }
 
-                var buffer = new byte[1024];
-                var dataServer = _client.GetStream().Read(buffer, 0, buffer.Length);
-                var messageServer = Encoding.ASCII.GetString(buffer, 0, dataServer);
+                byte[] buffer = new byte[1024];
+                int dataServer = _client.GetStream().Read(buffer, 0, buffer.Length);
+                string messageServer = Encoding.ASCII.GetString(buffer, 0, dataServer);
 
                 Console.WriteLine($"Server : {messageServer}");
 

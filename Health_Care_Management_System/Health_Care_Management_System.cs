@@ -8,7 +8,7 @@ namespace Health_Care_Management_System
     {
         static void Main(string[] args)
         {
-            var patients = new List<Patient>
+            List<Patient> patients = new List<Patient>
             {
                 new Patient{Id = 1, Name = "Gatha", Age = 23, Gender ="Female", MedicalCondition = "Fever"},
                 new Patient{Id = 2, Name = "Minnu", Age = 50, Gender ="Female", MedicalCondition = "Headache"},
@@ -17,7 +17,7 @@ namespace Health_Care_Management_System
             };
             patients.Add(new Patient { Id = 5, Name = "Raghav", Age = 60, Gender = "Male", MedicalCondition = "Diarrhea" });
 
-            var appointments = new List<Appointment>
+            List<Appointment> appointments = new List<Appointment>
             {
                 new Appointment{Id = 1, PatientId = 1, DoctorName = "Mathew", AppointmentDate = new DateTime(2024, 10, 22), AppointmentType = "Consultation"},
                 new Appointment{Id = 2, PatientId = 2, DoctorName = "Mathew", AppointmentDate = new DateTime(2024, 10, 23), AppointmentType = "Consultation"},
@@ -80,17 +80,17 @@ namespace Health_Care_Management_System
                 .OrderByDescending(g => g.AppointmentCount)
                 .ToList();
 
-            var maxAppointmentCount = mostAppointments.First().AppointmentCount;
+            int maxAppointmentCount = mostAppointments.First().AppointmentCount;
 
-            var patientsWithMostAppointments = mostAppointments
+            IEnumerable<int> patientsWithMostAppointments = mostAppointments
                 .Where(g => g.AppointmentCount == maxAppointmentCount)
                 .Select(g => g.PatientId);
 
             Console.WriteLine("\nPatient(s) with the most appointments in the last 30 days:");
 
-            foreach (var patientId in patientsWithMostAppointments)
+            foreach (int patientId in patientsWithMostAppointments)
             {
-                var patient = patients.FirstOrDefault(p => p.Id == patientId);
+                Patient patient = patients.FirstOrDefault(p => p.Id == patientId);
                 Console.WriteLine($"Name: {patient.Name}, Age: {patient.Age}, Medical Condition: {patient.MedicalCondition}");
             }
 

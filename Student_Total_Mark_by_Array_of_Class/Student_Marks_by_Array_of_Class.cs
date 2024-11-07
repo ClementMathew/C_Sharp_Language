@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Student_Marks_by_Array_of_Class
 {
@@ -10,19 +6,19 @@ namespace Student_Marks_by_Array_of_Class
     {
         static void Main(string[] args)
         {
-            var s1 = new Student
+            Student s1 = new Student
             {
                 Name = "Student1",
                 Mark1 = 10,
                 Mark2 = 20
             };
-            var s2 = new Student
+            Student s2 = new Student
             {
                 Name = "Student2",
                 Mark1 = 10,
                 Mark2 = 20
             };
-            var s3 = new Student
+            Student s3 = new Student
             {
                 Name = "Student3",
                 Mark1 = 10,
@@ -34,7 +30,7 @@ namespace Student_Marks_by_Array_of_Class
             students[1] = s2;
             students[2] = s3;
 
-            foreach (var student in students)
+            foreach (Student student in students)
             {
                 if (student != null)
                     Console.WriteLine(student.Name);

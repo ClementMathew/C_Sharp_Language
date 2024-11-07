@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Params_in_Parameters
 {
@@ -45,7 +42,7 @@ namespace Params_in_Parameters
 
         static void Main(string[] args)
         {
-            var ar = new int[] { 1, 2, 3, 4 };
+            int[] ar = new int[] { 1, 2, 3, 4 };
 
             Add(ar);  // Passing array
 

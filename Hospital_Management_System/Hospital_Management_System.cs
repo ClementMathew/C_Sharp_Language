@@ -1,9 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Remoting.Services;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Hospital_Management_System
 {
@@ -18,9 +14,9 @@ namespace Hospital_Management_System
 
             bool patientFound = false;
 
-            foreach (var department in Departments)
+            foreach (KeyValuePair<string, Dictionary<string, Dictionary<string, string>>> department in Departments)
             {
-                foreach (var doctor in department.Value)
+                foreach (KeyValuePair<string, Dictionary<string, string>> doctor in department.Value)
                 {
                     if (doctor.Value.ContainsKey(patientName))
                     {
@@ -50,9 +46,9 @@ namespace Hospital_Management_System
 
             bool doctorFound = false;
 
-            foreach (var department in Departments)
+            foreach (KeyValuePair<string, Dictionary<string, Dictionary<string, string>>> department in Departments)
             {
-                foreach (var doctor in department.Value)
+                foreach (KeyValuePair<string, Dictionary<string, string>> doctor in department.Value)
                 {
 
                     if (doctor.Key.Equals(doctorName, StringComparison.OrdinalIgnoreCase))
@@ -60,7 +56,7 @@ namespace Hospital_Management_System
                         Console.WriteLine($"\nDoctor {doctorName} is in the {department.Key} department.");
 
                         Console.WriteLine("Patients under this doctor:");
-                        foreach (var patient in doctor.Value)
+                        foreach (KeyValuePair<string, string> patient in doctor.Value)
                         {
                             Console.WriteLine($"    Patient: {patient.Key}, Status: {patient.Value}");
                         }
@@ -87,9 +83,9 @@ namespace Hospital_Management_System
 
             bool patientFound = false;
 
-            foreach (var department in Departments)
+            foreach (KeyValuePair<string, Dictionary<string, Dictionary<string, string>>> department in Departments)
             {
-                foreach (var doctor in department.Value)
+                foreach (KeyValuePair<string, Dictionary<string, string>> doctor in department.Value)
                 {
                     if (doctor.Value.ContainsKey(patientName))
                     {
@@ -117,15 +113,15 @@ namespace Hospital_Management_System
         {
             Console.WriteLine("----------- Patients ------------");
 
-            foreach (var department in Departments)
+            foreach (KeyValuePair<string, Dictionary<string, Dictionary<string, string>>> department in Departments)
             {
                 Console.WriteLine($"{department.Key} : ");
 
-                foreach (var doctor in department.Value)
+                foreach (KeyValuePair<string, Dictionary<string, string>> doctor in department.Value)
                 {
                     Console.WriteLine($"    {doctor.Key} : ");
 
-                    foreach (var patient in doctor.Value)
+                    foreach (KeyValuePair<string, string> patient in doctor.Value)
                     {
                         Console.WriteLine($"        {patient.Key} : {patient.Value}");
                     }
@@ -137,11 +133,11 @@ namespace Hospital_Management_System
         {
             Console.WriteLine("-------- Doctors --------------");
 
-            foreach (var department in Departments)
+            foreach (KeyValuePair<string, Dictionary<string, Dictionary<string, string>>> department in Departments)
             {
                 Console.WriteLine($"{department.Key} : ");
 
-                foreach (var doctor in department.Value)
+                foreach (KeyValuePair<string, Dictionary<string, string>> doctor in department.Value)
                 {
                     Console.WriteLine($"    {doctor.Key}");
                 }
@@ -159,7 +155,7 @@ namespace Hospital_Management_System
             bool departmentFound = false;
             bool doctorFound = false;
 
-            foreach (var department in Departments)
+            foreach (KeyValuePair<string, Dictionary<string, Dictionary<string, string>>> department in Departments)
             {
                 if (department.Key == departmentName)
                 {
@@ -170,7 +166,7 @@ namespace Hospital_Management_System
                     Console.WriteLine("Enter the name of doctor : ");
                     string doctorName = Console.ReadLine().ToUpper();
 
-                    foreach (var doctor in department.Value)
+                    foreach (KeyValuePair<string, Dictionary<string, string>> doctor in department.Value)
                     {
                         if (doctor.Key == doctorName)
                         {
@@ -211,7 +207,7 @@ namespace Hospital_Management_System
             Console.WriteLine("Enter the department name : ");
             string departmentName = Console.ReadLine().ToUpper();
 
-            foreach (var department in Departments)
+            foreach (KeyValuePair<string, Dictionary<string, Dictionary<string, string>>> department in Departments)
             {
                 if (department.Key == departmentName)
                 {
@@ -223,7 +219,7 @@ namespace Hospital_Management_System
 
                     List<string> doctors = new List<string>(doctorsNames.Split(','));
 
-                    foreach (var name in doctors)
+                    foreach (string name in doctors)
                     {
                         if (!string.IsNullOrWhiteSpace(name))
                         {
@@ -257,7 +253,7 @@ namespace Hospital_Management_System
             {
                 List<string> doctors = new List<string>(doctorsNames.Split(','));
 
-                foreach (var name in doctors)
+                foreach (string name in doctors)
                 {
                     if (!string.IsNullOrWhiteSpace(name))
                     {

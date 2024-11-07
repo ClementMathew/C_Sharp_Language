@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Remove_Even_Numbers
 {
@@ -12,7 +9,7 @@ namespace Remove_Even_Numbers
         {
             // Display a list by removing all even numbers entered by user.
 
-            var list = new List<int>();
+            List<int> list = new List<int>();
 
             Console.WriteLine("Enter 5 numbers : ");
 
@@ -35,7 +32,7 @@ namespace Remove_Even_Numbers
 
             Console.Write("The list after removing even numbers : ");
 
-            foreach (var item in list)
+            foreach (int item in list)
             {
                 Console.Write(item + " ");
             }

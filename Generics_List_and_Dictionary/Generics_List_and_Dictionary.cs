@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Generics_List_and_Dictionary
 {
@@ -23,7 +20,7 @@ namespace Generics_List_and_Dictionary
         public void PrintData()
         {
             Console.WriteLine("Sorted List Data: ");
-            foreach (var item in _data)
+            foreach (T item in _data)
             {
                 Console.WriteLine(item);
             }
@@ -46,7 +43,7 @@ namespace Generics_List_and_Dictionary
         public void PrintData()
         {
             Console.WriteLine("Dictionary Data: ");
-            foreach (var kvp in _data)
+            foreach (KeyValuePair<T, TValue> kvp in _data)
             {
                 Console.WriteLine($"{kvp.Key} -> {kvp.Value}");
             }
@@ -59,7 +56,7 @@ namespace Generics_List_and_Dictionary
         {
             // Example usage of SortedList with integers
 
-            var numberList = new SortedList<int>();
+            SortedList<int> numberList = new SortedList<int>();
 
             numberList.Add(1);
             numberList.Add(2);
@@ -67,14 +64,14 @@ namespace Generics_List_and_Dictionary
 
             // Example usage of SortedList with strings
 
-            var stringList = new SortedList<string>();
+            SortedList<string> stringList = new SortedList<string>();
 
             stringList.Add("hello");
             stringList.PrintData();
 
             // Example usage of NewDictionary with integer keys and string values
 
-            var dict = new NewDictionary<int, string>();
+            NewDictionary<int, string> dict = new NewDictionary<int, string>();
 
             dict.Add(1, "One");
             dict.Add(2, "Two");

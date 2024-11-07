@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
 
 namespace Static_Constructor
 {
@@ -28,7 +23,7 @@ namespace Static_Constructor
         {
             Console.WriteLine("Company Name :" + Employee.CompanyName);
 
-            var e1 = new Employee("Joe");
+            Employee e1 = new Employee("Joe");
 
             Console.WriteLine(e1);
         }

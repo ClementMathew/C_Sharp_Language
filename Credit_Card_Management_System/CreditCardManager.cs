@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Credit_Card_Management_System
 {
@@ -25,7 +22,7 @@ namespace Credit_Card_Management_System
 
         public void UpdateCard(long cardNumber, string newHolderName)
         {
-            foreach (var card in creditCards)
+            foreach (CreditCard card in creditCards)
             {
                 if (card.CardNumber == cardNumber)
                 {
@@ -54,7 +51,7 @@ namespace Credit_Card_Management_System
 
         public void SearchCard(long cardNumber)
         {
-            foreach (var card in creditCards)
+            foreach (CreditCard card in creditCards)
             {
                 if (card.CardNumber == cardNumber)
                 {

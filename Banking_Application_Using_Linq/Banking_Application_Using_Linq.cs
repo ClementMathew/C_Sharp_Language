@@ -8,7 +8,7 @@ namespace Banking_Application_Using_Linq
     {
         static void Main(string[] args)
         {
-            var account = new List<Account>()
+            List<Account> account = new List<Account>()
             {
                 new Account{Id = 1, Name = "Gatha", Balance = 1900},
                 new Account{Id = 2, Name = "Minnu", Balance = 2000},
@@ -16,7 +16,7 @@ namespace Banking_Application_Using_Linq
                 new Account{Id = 4, Name = "Midhun", Balance = 5900}
             };
 
-            var transact = new List<Transact>()
+            List<Transact> transact = new List<Transact>()
             {
                 new Transact{Id = 100, FromId = 1, ToId = 2, Amount = 1000, DayTime = DateTime.Now},
                 new Transact{Id = 101, FromId = 3, ToId = 4, Amount = 500, DayTime = DateTime.Now}

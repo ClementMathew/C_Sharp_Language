@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Mine_Sweeper
 {
@@ -42,7 +38,7 @@ namespace Mine_Sweeper
 
                 Console.Write("Enter row and column (e.x., 1 2): ");
 
-                var input = Console.ReadLine().Split();
+                string[] input = Console.ReadLine().Split();
                 int row = int.Parse(input[0]) - 1;
                 int col = int.Parse(input[1]) - 1;
 

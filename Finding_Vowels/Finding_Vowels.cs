@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Finding_Vowels
 {
@@ -15,7 +11,7 @@ namespace Finding_Vowels
             string textInput = "Clement";
             string vowels = "aeiou";
 
-            foreach (var item in textInput)
+            foreach (char item in textInput)
             {
                 if (vowels.Contains(item.ToString().ToLower()))
                 {

@@ -36,13 +36,13 @@ namespace Echo_server
             while (true)
             {
                 byte[] bytes = new byte[1024];
-                var dataClient = _socket.Receive(bytes);
-                var messageClient = Encoding.ASCII.GetString(bytes, 0, dataClient);
+                int dataClient = _socket.Receive(bytes);
+                string messageClient = Encoding.ASCII.GetString(bytes, 0, dataClient);
 
                 Console.WriteLine($"Client : {messageClient}");
 
 
-                var messageServer = Encoding.ASCII.GetBytes(messageClient);
+                byte[] messageServer = Encoding.ASCII.GetBytes(messageClient);
                 _socket.Send(messageServer);
 
                 Console.WriteLine("Message send....");

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Value_and_Reference_Type
 {
@@ -21,7 +17,7 @@ namespace Value_and_Reference_Type
         {
             // Reference Type
 
-            var obj = new MyClass() { Data = "Old Data" };
+            MyClass obj = new MyClass() { Data = "Old Data" };
 
             Console.WriteLine($"Before Reference Type Change: {obj.Data}");
 

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Datetime
 {
@@ -28,12 +24,12 @@ namespace Datetime
 
             // AddDays
 
-            var tendaysFromNow = dt.AddDays(10);
+            DateTime tendaysFromNow = dt.AddDays(10);
             Console.WriteLine($"Ten days added : {tendaysFromNow}");
 
             // AddHours
 
-            var tenDaysAndTwentyHoursFromNow = dt.AddHours(20).AddDays(10);
+            DateTime tenDaysAndTwentyHoursFromNow = dt.AddHours(20).AddDays(10);
             Console.WriteLine($"Ten days and twenty hours added : {tenDaysAndTwentyHoursFromNow} \n");
 
             // Subtract Hours
@@ -50,7 +46,7 @@ namespace Datetime
 
             // Constructing Date and Time 
 
-            var myDt = new DateTime(2024, 10, 07, 10, 50, 49);
+            DateTime myDt = new DateTime(2024, 10, 07, 10, 50, 49);
             Console.WriteLine($"Constructed datetime : {myDt}");
 
         }

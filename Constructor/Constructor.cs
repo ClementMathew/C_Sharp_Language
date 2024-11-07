@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Constructor
 {
@@ -54,7 +50,7 @@ namespace Constructor
         {
             // Creating Person object using the default constructor
 
-            var personDefault = new Person();
+            Person personDefault = new Person();
 
             personDefault.DisplayInfo();
 
@@ -62,7 +58,7 @@ namespace Constructor
 
             // Creating Person object using first constructor
 
-            var person1 = new Person(2);
+            Person person1 = new Person(2);
             person1.Name = "John";
 
             person1.DisplayInfo();
@@ -71,7 +67,7 @@ namespace Constructor
 
             // Creating Person object using second constructor
 
-            var person2 = new Person("Mishel", 5);
+            Person person2 = new Person("Mishel", 5);
 
             person2.DisplayInfo();
         }

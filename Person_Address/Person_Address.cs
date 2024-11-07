@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Person_Address
 {
@@ -62,7 +59,7 @@ namespace Person_Address
 
             Console.WriteLine($"\nSecond method : ");
 
-            foreach (var address in person2.Addresses)
+            foreach (Addresses address in person2.Addresses)
             {
                 Console.WriteLine(address);
             }
@@ -81,7 +78,7 @@ namespace Person_Address
 
             Console.WriteLine($"\nThird method : ");
 
-            foreach (var address in person3.Addresses)
+            foreach (Addresses address in person3.Addresses)
             {
                 Console.WriteLine(address);
             }
@@ -96,7 +93,7 @@ namespace Person_Address
 
             Console.WriteLine($"\nFourth method : ");
 
-            foreach (var address in person4.Addresses2)
+            foreach (Addresses address in person4.Addresses2)
             {
                 Console.WriteLine(address);
             }

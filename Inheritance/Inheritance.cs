@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Inheritance
 {
@@ -38,7 +34,7 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
-            var c = new C();
+            C c = new C();
             c.MethodA();
             c.MethodB();
             c.MethodC();

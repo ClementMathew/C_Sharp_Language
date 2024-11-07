@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Reflection.Emit;
-using System.Text;
-using System.Threading.Tasks;
 using log4net;
 using log4net.Appender;
 using log4net.Config;
@@ -46,7 +41,7 @@ namespace File_Logging
 
             // Define layout pattern
 
-            var layout = new PatternLayout
+            PatternLayout layout = new PatternLayout
             {
                 ConversionPattern = "%date [%thread] %-5level %logger - %message%newline"
             };
@@ -54,7 +49,7 @@ namespace File_Logging
 
             // Set up a file appender for error logging
 
-            var errorFileAppender = new FileAppender
+            FileAppender errorFileAppender = new FileAppender
             {
                 File = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "error.log"),
                 AppendToFile = true,

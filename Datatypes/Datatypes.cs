@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Datatypes
 {
@@ -32,8 +28,8 @@ namespace Datatypes
 
             // Datatypes nullable and not nullable.
 
-            int x = 1; 
-            int? y = null; 
+            int x = 1;
+            int? y = null;
 
             Console.WriteLine($"Not nullable value : {x}");
             Console.WriteLine($"Nullable value : {y} \n");
@@ -56,14 +52,14 @@ namespace Datatypes
 
             // Unsigned int datatype. 
 
-            uint distance = 23559; 
+            uint distance = 23559;
 
             Console.WriteLine($"Unsigned int : {distance}");
             Console.WriteLine($"Unsigned int max value : {uint.MaxValue}");
             Console.WriteLine($"Unsigned int min value : {uint.MinValue} \n");
-            
+
             // Unsigned long datatype.
-            
+
             ulong distanceLong = 2000000000;
 
             Console.WriteLine($"Unsigned long : {distanceLong}");
@@ -119,7 +115,7 @@ namespace Datatypes
             Console.WriteLine($"Float min value : {float.MinValue} \n");
 
             // Decimal datatype.
-            
+
             decimal decimalValue = 15567643874.567763498M;
 
             Console.WriteLine($"Decimal datatype value : {decimalValue}");

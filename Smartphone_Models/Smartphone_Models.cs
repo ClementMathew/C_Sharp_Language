@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Smartphone_Models
 {
@@ -18,7 +15,7 @@ namespace Smartphone_Models
             Console.WriteLine($"Manufacturer : {Manufacturer}");
             Console.Write($"Ram Sizes : ");
 
-            foreach (var item in RamSizes)
+            foreach (string item in RamSizes)
             {
                 Console.Write(item + " GB ");
             }

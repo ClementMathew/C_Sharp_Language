@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace List_Functions
 {
@@ -32,7 +29,7 @@ namespace List_Functions
 
             Console.Write("The values in the list using foreach : ");
 
-            foreach (var item in lst)
+            foreach (int item in lst)
                 Console.Write(item + " ");
 
             Console.WriteLine();
@@ -40,7 +37,7 @@ namespace List_Functions
 
             //Add multiple elements
 
-            var valuesToAdd = new int[] { 20, 30, 40, 50, 50 };
+            int[] valuesToAdd = new int[] { 20, 30, 40, 50, 50 };
             lst.AddRange(valuesToAdd);
             Console.Write($"The values in the list (AddRange) : {string.Join(" ", lst)}\n");
 

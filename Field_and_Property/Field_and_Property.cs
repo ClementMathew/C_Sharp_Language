@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Field_and_Property
 {
@@ -41,7 +37,7 @@ namespace Field_and_Property
     {
         static void Main(string[] args)
         {
-            var f = new Fields_and_Propertys_Demo();
+            Fields_and_Propertys_Demo f = new Fields_and_Propertys_Demo();
 
             f.Name = "New Name";
             f.SetAge(250);
@@ -49,7 +45,7 @@ namespace Field_and_Property
             Console.WriteLine(f.Name);
             Console.WriteLine(f.GetAge());
 
-            var f1 = new Fields_and_Propertys_Demo()
+            Fields_and_Propertys_Demo f1 = new Fields_and_Propertys_Demo()
             {
                 Name = "New New Name",
                 Age = 20

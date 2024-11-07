@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Iteration_Statements
 {
@@ -36,10 +33,10 @@ namespace Iteration_Statements
 
             // Foreach.
 
-            var sb = new StringBuilder();
+            StringBuilder sb = new StringBuilder();
             string[] names = { "Clement", "Mathew", "Sheba" };
 
-            foreach (var name in names)
+            foreach (string name in names)
             {
                 sb.AppendLine($"Name is : {name}");
             }

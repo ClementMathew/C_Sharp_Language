@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Library_Membership.Data;
 using Library_Membership.Entities;
 
@@ -14,7 +11,7 @@ namespace Library_Membership.Repositories
 
         public GenericResponse<List<Member>> GetAllMembers()
         {
-            var members = DataStore.Members;
+            List<Member> members = DataStore.Members;
 
             return new GenericResponse<List<Member>>
             {
@@ -27,7 +24,7 @@ namespace Library_Membership.Repositories
 
         public GenericResponse<Member> GetByName(string name)
         {
-            var member = DataStore.Members.FirstOrDefault(x => x.Name == name);
+            Member member = DataStore.Members.FirstOrDefault(x => x.Name == name);
 
             if (member == null)
             {
@@ -49,7 +46,7 @@ namespace Library_Membership.Repositories
 
         public GenericResponse<Member> GetByEmail(string email)
         {
-            var member = DataStore.Members.FirstOrDefault(x => x.Email == email);
+            Member member = DataStore.Members.FirstOrDefault(x => x.Email == email);
 
             if (member == null)
             {

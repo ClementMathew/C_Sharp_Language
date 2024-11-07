@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Shape_With_Covariance
 {
@@ -53,7 +50,7 @@ namespace Shape_With_Covariance
         {
             // Create a list of shapes and add instances of Circle and Rectangle
 
-            var shapes = new List<Shape>
+            List<Shape> shapes = new List<Shape>
             {
                 new Circle { Radius = 10.0 },
                 new Rectangle { Width = 10.0, Height = 10.0 }
@@ -61,7 +58,7 @@ namespace Shape_With_Covariance
 
             // Display area and perimeter for each shape
 
-            foreach (var shape in shapes)
+            foreach (Shape shape in shapes)
             {
                 Console.WriteLine($"Area: {shape.GetArea()}");
                 Console.WriteLine($"Perimeter: {shape.GetPerimeter()}");

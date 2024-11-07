@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Function_Delegate
 {
@@ -35,8 +30,8 @@ namespace Function_Delegate
 
             // Invoke the Func delegate
 
-            var res1 = getNum();
-            var res2 = addNums(1, 2);
+            int res1 = getNum();
+            string res2 = addNums(1, 2);
 
             // Output the results
 

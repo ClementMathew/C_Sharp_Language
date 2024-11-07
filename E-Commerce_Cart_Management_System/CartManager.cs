@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace E_Commerce_Cart_Management_System.Entities
 {
@@ -12,7 +9,7 @@ namespace E_Commerce_Cart_Management_System.Entities
 
         public void Add(CartItem item)
         {
-            var existingItem = _items.FirstOrDefault(i => i.Name == item.Name);
+            CartItem existingItem = _items.FirstOrDefault(i => i.Name == item.Name);
             if (existingItem != null)
             {
                 existingItem.Quantity += item.Quantity;

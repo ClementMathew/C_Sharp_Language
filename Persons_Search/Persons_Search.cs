@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Persons_Search
 {
@@ -104,7 +100,7 @@ namespace Persons_Search
 
             Console.WriteLine("\nList of names after trimming : ");
 
-            foreach (var item in names)
+            foreach (string item in names)
             {
                 Console.WriteLine(item.Trim(trimChar));
             }

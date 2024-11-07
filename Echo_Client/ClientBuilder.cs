@@ -31,15 +31,15 @@ namespace Echo_Client
             while (true)
             {
                 Console.Write("Enter : ");
-                var messageClient = Console.ReadLine();
+                string messageClient = Console.ReadLine();
                 byte[] dataClient = Encoding.ASCII.GetBytes(messageClient);
                 _client.GetStream().Write(dataClient, 0, dataClient.Length);
 
                 Console.WriteLine("Message send...");
 
                 byte[] bytes = new byte[1024];
-                var dataServer = _client.GetStream().Read(bytes, 0, bytes.Length);
-                var messageServer = Encoding.ASCII.GetString(bytes, 0, dataServer);
+                int dataServer = _client.GetStream().Read(bytes, 0, bytes.Length);
+                string messageServer = Encoding.ASCII.GetString(bytes, 0, dataServer);
 
                 Console.WriteLine($"Server : {messageServer}");
             }

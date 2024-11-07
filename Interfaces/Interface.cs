@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Interfaces
 {
@@ -39,7 +36,7 @@ namespace Interfaces
     {
         static void Main()
         {
-            var students = new List<IStudent>
+            List<IStudent> students = new List<IStudent>
             {
                 new SchoolStudent { Name = "John" },
                 new SchoolStudent { Name = "Jane" },
@@ -47,7 +44,7 @@ namespace Interfaces
                 new CollegeStudent { Name = "Mary" }
             };
 
-            foreach (var student in students)
+            foreach (IStudent student in students)
             {
                 student.Display();
             }

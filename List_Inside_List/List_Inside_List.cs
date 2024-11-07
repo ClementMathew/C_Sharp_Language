@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace List_Inside_List
 {
@@ -12,7 +9,7 @@ namespace List_Inside_List
         {
             // Store the marks of 3 subjects of 2 students using list in list.
 
-            var data = new List<List<int>>();
+            List<List<int>> data = new List<List<int>>();
 
             for (int i = 0; i < 2; i++)
             {
@@ -30,11 +27,11 @@ namespace List_Inside_List
 
             // Displaying the mark
 
-            foreach (var Marks in data)
+            foreach (List<int> Marks in data)
             {
                 Console.WriteLine($"The mark of students are : ");
 
-                foreach (var Mark in Marks)
+                foreach (int Mark in Marks)
                 {
                     Console.WriteLine(Mark);
                 }

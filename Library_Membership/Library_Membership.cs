@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Library_Membership.Repositories;
 
 namespace Library_Membership
@@ -13,11 +9,11 @@ namespace Library_Membership
         {
             // Book Repository Usage
 
-            var bookRepository = new BookRepository();
+            BookRepository bookRepository = new BookRepository();
 
             // Fetching book by ID
 
-            var result = bookRepository.GetById(10);
+            GenericResponse<Entities.Books> result = bookRepository.GetById(10);
 
             if (result.Success)
             {
@@ -30,7 +26,7 @@ namespace Library_Membership
 
             // Fetching book by Name
 
-            var res = bookRepository.GetByName("Book 1");
+            GenericResponse<Entities.Books> res = bookRepository.GetByName("Book 1");
 
             if (res.Success)
             {
@@ -43,11 +39,11 @@ namespace Library_Membership
 
             // Member Repository Usage
 
-            var memberRepository = new MemberRepository();
+            MemberRepository memberRepository = new MemberRepository();
 
             // Fetching member by Name
 
-            var memberResult = memberRepository.GetByName("Gatha");
+            GenericResponse<Entities.Member> memberResult = memberRepository.GetByName("Gatha");
 
             if (memberResult.Success)
             {
@@ -61,7 +57,7 @@ namespace Library_Membership
 
             // Fetching member by Email
 
-            var memberByEmail = memberRepository.GetByEmail("gg@gamil.com");
+            GenericResponse<Entities.Member> memberByEmail = memberRepository.GetByEmail("gg@gamil.com");
 
             if (memberByEmail.Success)
             {

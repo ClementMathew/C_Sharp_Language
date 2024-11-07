@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Task_Run
@@ -17,7 +15,7 @@ namespace Task_Run
 
         public static async Task Main()
         {
-            var tasks = new List<Task<int>>()
+            List<Task<int>> tasks = new List<Task<int>>()
             {
                 Task.Run(() => Multiply(2)),
                 Task.Run(() => Multiply(5)),

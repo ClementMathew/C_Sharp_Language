@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Cricket_Game.Entities;
 using Cricket_Game.Models;
 
@@ -12,7 +8,7 @@ namespace Cricket_Game
     {
         static void Main(string[] args)
         {
-            var tossType = Game_Manager.Toss();
+            TossType tossType = Game_Manager.Toss();
 
             if (tossType == TossType.UserBat)
             {

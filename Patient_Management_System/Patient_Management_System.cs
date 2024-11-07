@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Patient_Management_System
 {
@@ -38,11 +35,11 @@ namespace Patient_Management_System
             Console.WriteLine("Enter the patient id : ");
             int id = int.Parse(Console.ReadLine());
 
-            foreach (var Patient in Patients)
+            foreach (KeyValuePair<int, Dictionary<string, string>> Patient in Patients)
             {
                 if (Patient.Key == id)
                 {
-                    foreach (var item in Patient.Value)
+                    foreach (KeyValuePair<string, string> item in Patient.Value)
                     {
                         Console.WriteLine($"{item.Key} : {item.Value}");
                     }
@@ -57,12 +54,12 @@ namespace Patient_Management_System
 
             bool found = false;
 
-            foreach (var Patient in Patients)
+            foreach (KeyValuePair<int, Dictionary<string, string>> Patient in Patients)
             {
                 if (Patient.Value["symptoms"].Contains(symptom))
                 {
                     Console.WriteLine();
-                    foreach (var item in Patient.Value)
+                    foreach (KeyValuePair<string, string> item in Patient.Value)
                     {
                         Console.WriteLine($"{item.Key} : {item.Value}");
                     }

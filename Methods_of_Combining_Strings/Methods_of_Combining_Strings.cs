@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Methods_of_Combining_Strings
 {
@@ -14,14 +11,14 @@ namespace Methods_of_Combining_Strings
 
             // Method 1
 
-            var res = "";
+            string res = "";
 
             Console.WriteLine("--- Method 1 ---\n");
 
             res = string.Join(", ", "Hello", "World");
             Console.WriteLine(res);
 
-            var arr = new string[] { "Hi", "World" };
+            string[] arr = new string[] { "Hi", "World" };
 
             res = string.Join(", ", arr);
             Console.WriteLine(res + "\n");
@@ -33,7 +30,7 @@ namespace Methods_of_Combining_Strings
             res = string.Concat("1", "2", 3, 10.5, true);
             Console.WriteLine(res);
 
-            var concatArray = new string[] { "Hello", "From", "C#" };
+            string[] concatArray = new string[] { "Hello", "From", "C#" };
             res = string.Concat(concatArray);
             Console.WriteLine(res + "\n");
 
@@ -47,7 +44,7 @@ namespace Methods_of_Combining_Strings
             res = string.Format("{0} {1} {2} and {2}", "Hello", "From", "C#", "C++");
             Console.WriteLine(res);
 
-            var formatArr = new string[] { "Hello", "From", "C#" };
+            string[] formatArr = new string[] { "Hello", "From", "C#" };
             res = string.Format("{0} {1} {2}", formatArr);
             Console.WriteLine(res + "\n");
 
@@ -62,7 +59,7 @@ namespace Methods_of_Combining_Strings
 
             Console.WriteLine("--- Method 5 ---\n");
 
-            var language = "C#";
+            string language = "C#";
             res = $"Hello from {language}";
             Console.WriteLine(res + "\n");
 
@@ -70,7 +67,7 @@ namespace Methods_of_Combining_Strings
 
             Console.WriteLine("--- Method 6 ---\n");
 
-            var sb = new StringBuilder();
+            StringBuilder sb = new StringBuilder();
 
             sb.AppendLine("Line 1");
             sb.AppendLine("Line 2");

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Array_Resizing_Manually
 {
@@ -10,7 +6,7 @@ namespace Array_Resizing_Manually
     {
         static void Main(string[] args)
         {
-            var arr = new int[1];
+            int[] arr = new int[1];
             bool running = true;
             int size = 1;
 
@@ -24,7 +20,7 @@ namespace Array_Resizing_Manually
 
                 if (status == "Yes")
                 {
-                    var arr2 = new int[size + 1];
+                    int[] arr2 = new int[size + 1];
 
                     for (int i = 0; i < arr.Length; i++)
                     {
