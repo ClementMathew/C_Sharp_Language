@@ -268,8 +268,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solid Principles", "Solid P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Commerce_Cart_Management_System", "E-Commerce_Cart_Management_System\E-Commerce_Cart_Management_System.csproj", "{5D1E58FC-F0AB-4D4D-A6D2-F2E428DEB1E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Social_Media_Notification_System", "Social_Media_Notification_System\Social_Media_Notification_System.csproj", "{32C19346-ECEB-40D9-92FF-A08D89AC3E89}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Socket Programming", "Socket Programming", "{031EAE5A-0052-4142-A7A2-D7C58CC706C2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basics Client", "Client\Basics Client.csproj", "{2E0457C8-6417-4F02-9E59-CAD2FD968711}"
@@ -339,6 +337,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Single_Responsibility_Principle", "Single_Responsibility_Principle\Single_Responsibility_Principle.csproj", "{6D8D9E97-0514-48D6-B9A9-68044AB89380}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open_Close_Principle", "Open_Close_Principle\Open_Close_Principle.csproj", "{B5157A17-0C40-44D9-95E2-86D0B598D665}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Culture_Info", "Culture_Info\Culture_Info.csproj", "{6B363363-8ACC-4DF4-B56D-15C01F7784BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -766,10 +766,6 @@ Global
 		{5D1E58FC-F0AB-4D4D-A6D2-F2E428DEB1E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D1E58FC-F0AB-4D4D-A6D2-F2E428DEB1E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D1E58FC-F0AB-4D4D-A6D2-F2E428DEB1E2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{32C19346-ECEB-40D9-92FF-A08D89AC3E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{32C19346-ECEB-40D9-92FF-A08D89AC3E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{32C19346-ECEB-40D9-92FF-A08D89AC3E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{32C19346-ECEB-40D9-92FF-A08D89AC3E89}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2E0457C8-6417-4F02-9E59-CAD2FD968711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2E0457C8-6417-4F02-9E59-CAD2FD968711}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E0457C8-6417-4F02-9E59-CAD2FD968711}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -882,6 +878,10 @@ Global
 		{B5157A17-0C40-44D9-95E2-86D0B598D665}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5157A17-0C40-44D9-95E2-86D0B598D665}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5157A17-0C40-44D9-95E2-86D0B598D665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B363363-8ACC-4DF4-B56D-15C01F7784BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B363363-8ACC-4DF4-B56D-15C01F7784BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B363363-8ACC-4DF4-B56D-15C01F7784BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B363363-8ACC-4DF4-B56D-15C01F7784BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -984,7 +984,6 @@ Global
 		{96D9738B-A94D-4DEF-8F55-F5CFD59EFDEF} = {41435C01-408A-445A-88A3-A4011C4B0B65}
 		{8C3C70A7-B12A-4748-B36B-D8D8D25A05CB} = {41435C01-408A-445A-88A3-A4011C4B0B65}
 		{5D1E58FC-F0AB-4D4D-A6D2-F2E428DEB1E2} = {CEBBD04A-DC31-4C1F-9C19-DFA5C9499AA1}
-		{32C19346-ECEB-40D9-92FF-A08D89AC3E89} = {CEBBD04A-DC31-4C1F-9C19-DFA5C9499AA1}
 		{2E0457C8-6417-4F02-9E59-CAD2FD968711} = {6B903B00-4995-414B-AC6B-7CBC25402B78}
 		{C6D0CFFF-10AA-4692-998C-4CAAAE985BA9} = {6B903B00-4995-414B-AC6B-7CBC25402B78}
 		{6B903B00-4995-414B-AC6B-7CBC25402B78} = {031EAE5A-0052-4142-A7A2-D7C58CC706C2}

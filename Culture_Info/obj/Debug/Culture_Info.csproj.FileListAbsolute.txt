@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Culture_Info\bin\Debug\Culture_Info.exe.config
+D:\Programming\C_Sharp_Programs\Culture_Info\bin\Debug\Culture_Info.exe
+D:\Programming\C_Sharp_Programs\Culture_Info\bin\Debug\Culture_Info.pdb
+D:\Programming\C_Sharp_Programs\Culture_Info\obj\Debug\Culture_Info.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Culture_Info\obj\Debug\Culture_Info.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Culture_Info\obj\Debug\Culture_Info.exe
+D:\Programming\C_Sharp_Programs\Culture_Info\obj\Debug\Culture_Info.pdb

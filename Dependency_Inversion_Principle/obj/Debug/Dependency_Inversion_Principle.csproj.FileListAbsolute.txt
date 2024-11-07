@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Dependency_Inversion_Principle\bin\Debug\Dependency_Inversion_Principle.exe.config
+D:\Programming\C_Sharp_Programs\Dependency_Inversion_Principle\bin\Debug\Dependency_Inversion_Principle.exe
+D:\Programming\C_Sharp_Programs\Dependency_Inversion_Principle\bin\Debug\Dependency_Inversion_Principle.pdb
+D:\Programming\C_Sharp_Programs\Dependency_Inversion_Principle\obj\Debug\Dependency_Inversion_Principle.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Dependency_Inversion_Principle\obj\Debug\Dependency_Inversion_Principle.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Dependency_Inversion_Principle\obj\Debug\Dependency_Inversion_Principle.exe
+D:\Programming\C_Sharp_Programs\Dependency_Inversion_Principle\obj\Debug\Dependency_Inversion_Principle.pdb

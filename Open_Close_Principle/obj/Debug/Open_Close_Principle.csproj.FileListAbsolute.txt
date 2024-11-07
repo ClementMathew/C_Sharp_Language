@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Open_Close_Principle\bin\Debug\Open_Close_Principle.exe.config
+D:\Programming\C_Sharp_Programs\Open_Close_Principle\bin\Debug\Open_Close_Principle.exe
+D:\Programming\C_Sharp_Programs\Open_Close_Principle\bin\Debug\Open_Close_Principle.pdb
+D:\Programming\C_Sharp_Programs\Open_Close_Principle\obj\Debug\Open_Close_Principle.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Open_Close_Principle\obj\Debug\Open_Close_Principle.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Open_Close_Principle\obj\Debug\Open_Close_Principle.exe
+D:\Programming\C_Sharp_Programs\Open_Close_Principle\obj\Debug\Open_Close_Principle.pdb

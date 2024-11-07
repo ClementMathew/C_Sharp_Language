@@ -34,7 +34,8 @@ namespace E_Commerce_Cart_Management_System
                 Console.WriteLine("\n1. Add Item to Cart");
                 Console.WriteLine("2. Remove Item from Cart");
                 Console.WriteLine("3. View All Items in Cart");
-                Console.WriteLine("4. Exit");
+                Console.WriteLine("4. Percentage Discount");
+                Console.WriteLine("5. Exit");
 
                 Console.Write("\nChoose an option: ");
                 string choice = Console.ReadLine();
@@ -80,26 +81,30 @@ namespace E_Commerce_Cart_Management_System
                         break;
 
                     case "4":
+                        cartManager.Add(new CartItem { Name = "Item 1", Price = 100, Quantity = 2 });
+                        cartManager.Add(new CartItem { Name = "Item 2", Price = 200, Quantity = 3 });
+                        cartManager.Add(new CartItem { Name = "Item 3", Price = 300, Quantity = 4 });
+
+                        PercentageDiscountStrategy discountStrategy = new PercentageDiscountStrategy();
+                        BillingService billingService = new BillingService(discountStrategy);
+
+                        decimal totalAmount = billingService.CalculateTotalAmount(cartManager.GetAll());
+                        Console.WriteLine($"Total amount: {totalAmount}");
+
+                        break;
+
+                    case "5":
                         exit = true;
                         Console.WriteLine("Exiting program...");
+
                         break;
 
                     default:
                         Console.WriteLine("Invalid option. Please choose a valid option.");
+
                         break;
                 }
             }
-
-            CartManager cart = new CartManager();
-
-            cart.Add(new CartItem { Name = "Item 1", Price = 100, Quantity = 2 });
-            cart.Add(new CartItem { Name = "Item 2", Price = 200, Quantity = 3 });
-            cart.Add(new CartItem { Name = "Item 3", Price = 300, Quantity = 4 });
-
-            PercentageDiscountStrategy discountStrategy = new PercentageDiscountStrategy();
-            BillingService billingService = new BillingService(discountStrategy);
-            decimal totalAmount = billingService.CalculateTotalAmount(cart.GetAll());
-            Console.WriteLine($"Total amount: {totalAmount}");
         }
     }
 }

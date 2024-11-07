@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Interface_Segregation_Principle\bin\Debug\Interface_Segregation_Principle.exe.config
+D:\Programming\C_Sharp_Programs\Interface_Segregation_Principle\bin\Debug\Interface_Segregation_Principle.exe
+D:\Programming\C_Sharp_Programs\Interface_Segregation_Principle\bin\Debug\Interface_Segregation_Principle.pdb
+D:\Programming\C_Sharp_Programs\Interface_Segregation_Principle\obj\Debug\Interface_Segregation_Principle.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Interface_Segregation_Principle\obj\Debug\Interface_Segregation_Principle.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Interface_Segregation_Principle\obj\Debug\Interface_Segregation_Principle.exe
+D:\Programming\C_Sharp_Programs\Interface_Segregation_Principle\obj\Debug\Interface_Segregation_Principle.pdb

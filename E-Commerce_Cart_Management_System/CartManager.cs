@@ -10,6 +10,7 @@ namespace E_Commerce_Cart_Management_System.Entities
         public void Add(CartItem item)
         {
             CartItem existingItem = _items.FirstOrDefault(i => i.Name == item.Name);
+
             if (existingItem != null)
             {
                 existingItem.Quantity += item.Quantity;
