@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Write_Image_File\bin\Debug\Write_Image_File.exe.config
+D:\Programming\C_Sharp_Programs\Write_Image_File\bin\Debug\Write_Image_File.exe
+D:\Programming\C_Sharp_Programs\Write_Image_File\bin\Debug\Write_Image_File.pdb
+D:\Programming\C_Sharp_Programs\Write_Image_File\obj\Debug\Write_Image_File.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Write_Image_File\obj\Debug\Write_Image_File.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Write_Image_File\obj\Debug\Write_Image_File.exe
+D:\Programming\C_Sharp_Programs\Write_Image_File\obj\Debug\Write_Image_File.pdb

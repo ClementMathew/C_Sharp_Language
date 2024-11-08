@@ -1,0 +1,10 @@
+D:\Programming\C_Sharp_Programs\Json_Serialization\bin\Debug\Json_Serialization.exe.config
+D:\Programming\C_Sharp_Programs\Json_Serialization\bin\Debug\Json_Serialization.exe
+D:\Programming\C_Sharp_Programs\Json_Serialization\bin\Debug\Json_Serialization.pdb
+D:\Programming\C_Sharp_Programs\Json_Serialization\bin\Debug\Newtonsoft.Json.dll
+D:\Programming\C_Sharp_Programs\Json_Serialization\bin\Debug\Newtonsoft.Json.xml
+D:\Programming\C_Sharp_Programs\Json_Serialization\obj\Debug\Json_Serialization.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Json_Serialization\obj\Debug\Json_Serialization.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Json_Serialization\obj\Debug\Json_Ser.BAACBDF9.Up2Date
+D:\Programming\C_Sharp_Programs\Json_Serialization\obj\Debug\Json_Serialization.exe
+D:\Programming\C_Sharp_Programs\Json_Serialization\obj\Debug\Json_Serialization.pdb

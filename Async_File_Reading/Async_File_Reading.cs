@@ -27,7 +27,7 @@ namespace Async_File_Reading
 
         public static async Task Main(string[] args)
         {
-            string path = @"C:\Users\cleme\Documents\AsyncRead";
+            string path = @"C:\Users\cleme\Documents\DotNet\AsyncRead";
             string fileName = "AsyncRead.txt";
 
             string filePath = Path.Combine(path, fileName);

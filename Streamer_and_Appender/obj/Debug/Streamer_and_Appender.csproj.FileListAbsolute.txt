@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Streamer_and_Appender\bin\Debug\Streamer_and_Appender.exe.config
+D:\Programming\C_Sharp_Programs\Streamer_and_Appender\bin\Debug\Streamer_and_Appender.exe
+D:\Programming\C_Sharp_Programs\Streamer_and_Appender\bin\Debug\Streamer_and_Appender.pdb
+D:\Programming\C_Sharp_Programs\Streamer_and_Appender\obj\Debug\Streamer_and_Appender.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Streamer_and_Appender\obj\Debug\Streamer_and_Appender.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Streamer_and_Appender\obj\Debug\Streamer_and_Appender.exe
+D:\Programming\C_Sharp_Programs\Streamer_and_Appender\obj\Debug\Streamer_and_Appender.pdb

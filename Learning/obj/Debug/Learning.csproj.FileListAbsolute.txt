@@ -5,3 +5,6 @@ D:\Programming\C_Sharp_Programs\Learning\obj\Debug\Learning.csproj.AssemblyRefer
 D:\Programming\C_Sharp_Programs\Learning\obj\Debug\Learning.csproj.CoreCompileInputs.cache
 D:\Programming\C_Sharp_Programs\Learning\obj\Debug\Learning.exe
 D:\Programming\C_Sharp_Programs\Learning\obj\Debug\Learning.pdb
+D:\Programming\C_Sharp_Programs\Learning\bin\Debug\Newtonsoft.Json.dll
+D:\Programming\C_Sharp_Programs\Learning\bin\Debug\Newtonsoft.Json.xml
+D:\Programming\C_Sharp_Programs\Learning\obj\Debug\Learning.csproj.Up2Date

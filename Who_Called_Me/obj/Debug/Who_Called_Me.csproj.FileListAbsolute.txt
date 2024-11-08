@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Who_Called_Me\bin\Debug\Who_Called_Me.exe.config
+D:\Programming\C_Sharp_Programs\Who_Called_Me\bin\Debug\Who_Called_Me.exe
+D:\Programming\C_Sharp_Programs\Who_Called_Me\bin\Debug\Who_Called_Me.pdb
+D:\Programming\C_Sharp_Programs\Who_Called_Me\obj\Debug\Who_Called_Me.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Who_Called_Me\obj\Debug\Who_Called_Me.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Who_Called_Me\obj\Debug\Who_Called_Me.exe
+D:\Programming\C_Sharp_Programs\Who_Called_Me\obj\Debug\Who_Called_Me.pdb

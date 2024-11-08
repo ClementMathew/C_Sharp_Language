@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Struct_Datatype\bin\Debug\Struct_Datatype.exe.config
+D:\Programming\C_Sharp_Programs\Struct_Datatype\bin\Debug\Struct_Datatype.exe
+D:\Programming\C_Sharp_Programs\Struct_Datatype\bin\Debug\Struct_Datatype.pdb
+D:\Programming\C_Sharp_Programs\Struct_Datatype\obj\Debug\Struct_Datatype.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Struct_Datatype\obj\Debug\Struct_Datatype.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Struct_Datatype\obj\Debug\Struct_Datatype.exe
+D:\Programming\C_Sharp_Programs\Struct_Datatype\obj\Debug\Struct_Datatype.pdb

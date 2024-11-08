@@ -51,7 +51,7 @@ namespace File_Logging
 
             FileAppender errorFileAppender = new FileAppender
             {
-                File = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "error.log"),
+                File = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "DotNet", "Logs", "error.log"),
                 AppendToFile = true,
                 Layout = layout,
                 Threshold = Level.Error

@@ -7,7 +7,7 @@ namespace File_Handling_Operations
     {
         static void Main()
         {
-            string path = @"C:\Users\cleme\Documents\C#TestDirectory";
+            string path = @"C:\Users\cleme\Documents\DotNet\File Handling";
             string fileName = "Data.txt";
 
             string filePath = Path.Combine(path, fileName);
@@ -58,6 +58,25 @@ namespace File_Handling_Operations
             foreach (string line in contentLines)
             {
                 Console.WriteLine(line);
+            }
+
+            // Rename the file
+
+            string newFilePath = Path.Combine(path, "RenamedFile.txt");
+
+            File.Move(filePath, newFilePath);
+
+            Console.WriteLine("\nFile renamed.");
+
+            // List all files in the Directory
+
+            string[] files = Directory.GetFiles(path);
+
+            Console.WriteLine("\nFiles in the folder :");
+
+            foreach (string file in files)
+            {
+                Console.WriteLine(file);
             }
 
             // Delete the file

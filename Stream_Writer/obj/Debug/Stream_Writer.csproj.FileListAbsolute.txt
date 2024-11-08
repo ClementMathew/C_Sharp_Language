@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Stream_Writer\bin\Debug\Stream_Writer.exe.config
+D:\Programming\C_Sharp_Programs\Stream_Writer\bin\Debug\Stream_Writer.exe
+D:\Programming\C_Sharp_Programs\Stream_Writer\bin\Debug\Stream_Writer.pdb
+D:\Programming\C_Sharp_Programs\Stream_Writer\obj\Debug\Stream_Writer.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Stream_Writer\obj\Debug\Stream_Writer.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Stream_Writer\obj\Debug\Stream_Writer.exe
+D:\Programming\C_Sharp_Programs\Stream_Writer\obj\Debug\Stream_Writer.pdb

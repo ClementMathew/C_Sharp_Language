@@ -1,10 +1,11 @@
 ﻿namespace Learning
 {
-    internal class Learning
+    class Learning
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
 
         }
     }
 }
+
