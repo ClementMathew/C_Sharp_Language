@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Stack_Using_List\bin\Debug\Stack_Using_List.exe.config
+D:\Programming\C_Sharp_Programs\Stack_Using_List\bin\Debug\Stack_Using_List.exe
+D:\Programming\C_Sharp_Programs\Stack_Using_List\bin\Debug\Stack_Using_List.pdb
+D:\Programming\C_Sharp_Programs\Stack_Using_List\obj\Debug\Stack_Using_List.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Stack_Using_List\obj\Debug\Stack_Using_List.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Stack_Using_List\obj\Debug\Stack_Using_List.exe
+D:\Programming\C_Sharp_Programs\Stack_Using_List\obj\Debug\Stack_Using_List.pdb

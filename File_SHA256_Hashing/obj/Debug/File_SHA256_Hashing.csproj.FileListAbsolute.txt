@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\File_SHA256_Hashing\bin\Debug\File_SHA256_Hashing.exe.config
+D:\Programming\C_Sharp_Programs\File_SHA256_Hashing\bin\Debug\File_SHA256_Hashing.exe
+D:\Programming\C_Sharp_Programs\File_SHA256_Hashing\bin\Debug\File_SHA256_Hashing.pdb
+D:\Programming\C_Sharp_Programs\File_SHA256_Hashing\obj\Debug\File_SHA256_Hashing.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\File_SHA256_Hashing\obj\Debug\File_SHA256_Hashing.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\File_SHA256_Hashing\obj\Debug\File_SHA256_Hashing.exe
+D:\Programming\C_Sharp_Programs\File_SHA256_Hashing\obj\Debug\File_SHA256_Hashing.pdb

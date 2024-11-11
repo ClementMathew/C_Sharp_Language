@@ -1,0 +1,7 @@
+D:\Programming\C_Sharp_Programs\Stack_Using_Array\bin\Debug\Stack_Using_Array.exe.config
+D:\Programming\C_Sharp_Programs\Stack_Using_Array\bin\Debug\Stack_Using_Array.exe
+D:\Programming\C_Sharp_Programs\Stack_Using_Array\bin\Debug\Stack_Using_Array.pdb
+D:\Programming\C_Sharp_Programs\Stack_Using_Array\obj\Debug\Stack_Using_Array.csproj.AssemblyReference.cache
+D:\Programming\C_Sharp_Programs\Stack_Using_Array\obj\Debug\Stack_Using_Array.csproj.CoreCompileInputs.cache
+D:\Programming\C_Sharp_Programs\Stack_Using_Array\obj\Debug\Stack_Using_Array.exe
+D:\Programming\C_Sharp_Programs\Stack_Using_Array\obj\Debug\Stack_Using_Array.pdb
