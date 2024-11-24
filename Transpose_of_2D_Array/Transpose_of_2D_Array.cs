@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace _2_Dimensional_Array
+namespace Transpose_of_2D_Array
 {
-    internal class _2_Dimensional_Array
+    internal class Transpose_of_2D_Array
     {
         static void Main(string[] args)
         {
@@ -27,13 +27,13 @@ namespace _2_Dimensional_Array
 
             // Display the matrix
 
-            Console.WriteLine("Displaying the elements of the matrix : ");
+            Console.WriteLine("Displaying the transpose of the matrix : ");
 
-            for (int i = 0; i < row; i++)
+            for (int i = 0; i < column; i++)
             {
-                for (int j = 0; j < column; j++)
+                for (int j = 0; j < row; j++)
                 {
-                    Console.Write(matrix[i, j] + " ");
+                    Console.Write(matrix[j, i] + " ");
                 }
                 Console.WriteLine();
             }
